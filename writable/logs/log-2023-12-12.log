@@ -1,0 +1,871 @@
+INFO - 2023-12-12 12:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 12:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 12:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 12:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 12:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 12:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-12 12:55:21 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\xampp\htdocs\webdesa\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\webdesa\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\webdesa\system\BaseModel.php(949): CodeIgniter\Model->doUpdate()
+#6 C:\xampp\htdocs\webdesa\system\Model.php(776): CodeIgniter\BaseModel->update()
+#7 C:\xampp\htdocs\webdesa\app\Models\M_Profil.php(16): CodeIgniter\Model->update()
+#8 C:\xampp\htdocs\webdesa\app\Controllers\Profil.php(46): App\Models\M_Profil->updateProfil()
+#9 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(919): App\Controllers\Profil->ubah_profilnya()
+#10 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#11 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#12 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-12 12:55:21 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate()
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update()
+ 5 APPPATH\Models\M_Profil.php(16): CodeIgniter\Model->update()
+ 6 APPPATH\Controllers\Profil.php(46): App\Models\M_Profil->updateProfil()
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->ubah_profilnya()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-12 12:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 12:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-12 12:56:29 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\xampp\htdocs\webdesa\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\webdesa\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\webdesa\system\BaseModel.php(949): CodeIgniter\Model->doUpdate()
+#6 C:\xampp\htdocs\webdesa\system\Model.php(776): CodeIgniter\BaseModel->update()
+#7 C:\xampp\htdocs\webdesa\app\Models\M_Profil.php(16): CodeIgniter\Model->update()
+#8 C:\xampp\htdocs\webdesa\app\Controllers\Profil.php(46): App\Models\M_Profil->updateProfil()
+#9 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(919): App\Controllers\Profil->ubah_profilnya()
+#10 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#11 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#12 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-12 12:56:29 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate()
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update()
+ 5 APPPATH\Models\M_Profil.php(16): CodeIgniter\Model->update()
+ 6 APPPATH\Controllers\Profil.php(46): App\Models\M_Profil->updateProfil()
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->ubah_profilnya()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-12 13:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 13:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-12 13:07:59 --> Too few arguments to function App\Controllers\Profil::ubah_profilnya(), 0 passed in C:\xampp\htdocs\webdesa\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Profil.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->ubah_profilnya()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 13:12:17 --> Too few arguments to function App\Controllers\Profil::edit_profil(), 0 passed in C:\xampp\htdocs\webdesa\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Profil.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->edit_profil()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-12 13:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-12 13:14:10 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate()
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update()
+ 3 APPPATH\Models\M_Profil.php(18): CodeIgniter\Model->update()
+ 4 APPPATH\Controllers\Profil.php(44): App\Models\M_Profil->updateProfil()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->edit_profil()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-12 13:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-12 13:15:28 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update()
+ 4 APPPATH\Controllers\Profil.php(44): CodeIgniter\Model->update()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->edit_profil()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-12 13:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-12 13:15:35 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update()
+ 4 APPPATH\Controllers\Profil.php(44): CodeIgniter\Model->update()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->edit_profil()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 13:18:29 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update()
+ 4 APPPATH\Controllers\Profil.php(38): CodeIgniter\Model->update()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->edit_profil()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 13:18:37 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update()
+ 4 APPPATH\Controllers\Profil.php(38): CodeIgniter\Model->update()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->edit_profil()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 13:20:18 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update()
+ 4 APPPATH\Controllers\Profil.php(38): CodeIgniter\Model->update()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->edit_profil()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 13:32:23 --> Undefined variable $result
+in APPPATH\Controllers\Profil.php on line 35.
+ 1 APPPATH\Controllers\Profil.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->edit_profil()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-12 13:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 13:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-12 13:35:54 --> Undefined variable $result
+in APPPATH\Controllers\Profil.php on line 35.
+ 1 APPPATH\Controllers\Profil.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->edit_profil()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-12 13:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 13:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 13:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 13:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 13:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 13:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 13:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 13:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 13:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 13:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 13:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 13:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 13:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 13:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-12 13:51:09 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\xampp\htdocs\webdesa\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\webdesa\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\webdesa\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\webdesa\app\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\webdesa\app\Controllers\Profil.php(12): App\Models\M_Profil->getDataProfil()
+#8 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(919): App\Controllers\Profil->index()
+#9 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-12 13:51:09 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Profil.php(12): App\Models\M_Profil->getDataProfil()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 13:57:21 --> Undefined variable $userData
+in APPPATH\Views\v_edit_profil.php on line 18.
+ 1 APPPATH\Views\v_edit_profil.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_edit_profil.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Profil.php(15): view()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 14:00:03 --> Undefined variable $data
+in APPPATH\Views\v_edit_profil.php on line 18.
+ 1 APPPATH\Views\v_edit_profil.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_edit_profil.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Profil.php(15): view()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 14:00:04 --> Undefined variable $data
+in APPPATH\Views\v_edit_profil.php on line 18.
+ 1 APPPATH\Views\v_edit_profil.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_edit_profil.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Profil.php(15): view()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 14:00:04 --> Undefined variable $data
+in APPPATH\Views\v_edit_profil.php on line 18.
+ 1 APPPATH\Views\v_edit_profil.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_edit_profil.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Profil.php(15): view()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 14:00:04 --> Undefined variable $data
+in APPPATH\Views\v_edit_profil.php on line 18.
+ 1 APPPATH\Views\v_edit_profil.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_edit_profil.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Profil.php(15): view()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 14:00:04 --> Undefined variable $data
+in APPPATH\Views\v_edit_profil.php on line 18.
+ 1 APPPATH\Views\v_edit_profil.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_edit_profil.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Profil.php(15): view()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 14:00:04 --> Undefined variable $data
+in APPPATH\Views\v_edit_profil.php on line 18.
+ 1 APPPATH\Views\v_edit_profil.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_edit_profil.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Profil.php(15): view()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 14:00:09 --> Undefined variable $userData
+in APPPATH\Views\v_edit_profil.php on line 18.
+ 1 APPPATH\Views\v_edit_profil.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_edit_profil.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Profil.php(15): view()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-12 14:02:41 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\xampp\htdocs\webdesa\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\webdesa\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\webdesa\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\webdesa\app\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\webdesa\app\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+#8 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(919): App\Controllers\Profil->index()
+#9 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-12 14:02:41 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-12 14:02:42 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\xampp\htdocs\webdesa\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\webdesa\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\webdesa\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\webdesa\app\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\webdesa\app\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+#8 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(919): App\Controllers\Profil->index()
+#9 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-12 14:02:42 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-12 14:02:42 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\xampp\htdocs\webdesa\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\webdesa\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\webdesa\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\webdesa\app\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\webdesa\app\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+#8 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(919): App\Controllers\Profil->index()
+#9 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-12 14:02:42 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-12 14:02:42 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\xampp\htdocs\webdesa\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\webdesa\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\webdesa\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\webdesa\app\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\webdesa\app\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+#8 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(919): App\Controllers\Profil->index()
+#9 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-12 14:02:42 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-12 14:02:43 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\xampp\htdocs\webdesa\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\webdesa\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\webdesa\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\webdesa\app\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\webdesa\app\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+#8 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(919): App\Controllers\Profil->index()
+#9 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-12 14:02:43 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-12 14:02:43 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\xampp\htdocs\webdesa\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\webdesa\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\webdesa\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\webdesa\app\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\webdesa\app\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+#8 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(919): App\Controllers\Profil->index()
+#9 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-12 14:02:43 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-12 14:02:43 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\xampp\htdocs\webdesa\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\webdesa\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\webdesa\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\webdesa\app\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\webdesa\app\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+#8 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(919): App\Controllers\Profil->index()
+#9 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-12 14:02:43 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-12 14:02:43 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\xampp\htdocs\webdesa\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\webdesa\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\webdesa\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\webdesa\app\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\webdesa\app\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+#8 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(919): App\Controllers\Profil->index()
+#9 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-12 14:02:43 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-12 14:02:43 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\xampp\htdocs\webdesa\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\webdesa\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\webdesa\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\webdesa\app\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\webdesa\app\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+#8 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(919): App\Controllers\Profil->index()
+#9 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-12 14:02:43 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-12 14:02:43 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\xampp\htdocs\webdesa\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\webdesa\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\webdesa\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\webdesa\app\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\webdesa\app\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+#8 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(919): App\Controllers\Profil->index()
+#9 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-12 14:02:43 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-12 14:02:44 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\xampp\htdocs\webdesa\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\webdesa\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\webdesa\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\webdesa\app\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\webdesa\app\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+#8 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(919): App\Controllers\Profil->index()
+#9 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-12 14:02:44 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-12 14:02:44 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\xampp\htdocs\webdesa\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\webdesa\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\webdesa\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\webdesa\app\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\webdesa\app\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+#8 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(919): App\Controllers\Profil->index()
+#9 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-12 14:02:44 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-12 14:02:44 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\xampp\htdocs\webdesa\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\webdesa\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\webdesa\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\webdesa\app\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\webdesa\app\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+#8 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(919): App\Controllers\Profil->index()
+#9 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-12 14:02:44 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-12 14:02:45 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\xampp\htdocs\webdesa\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\webdesa\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\webdesa\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\webdesa\app\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\webdesa\app\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+#8 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(919): App\Controllers\Profil->index()
+#9 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-12 14:02:45 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-12 14:02:45 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\xampp\htdocs\webdesa\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\webdesa\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\webdesa\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\webdesa\app\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\webdesa\app\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+#8 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(919): App\Controllers\Profil->index()
+#9 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-12 14:02:45 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-12 14:02:45 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\xampp\htdocs\webdesa\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\webdesa\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\webdesa\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\webdesa\app\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\webdesa\app\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+#8 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(919): App\Controllers\Profil->index()
+#9 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-12 14:02:45 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-12 14:02:45 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\xampp\htdocs\webdesa\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\webdesa\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\webdesa\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\webdesa\app\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\webdesa\app\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+#8 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(919): App\Controllers\Profil->index()
+#9 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-12 14:02:45 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\M_Profil.php(15): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Profil.php(13): App\Models\M_Profil->getDataProfil()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-12 14:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:24:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:24:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-12 14:39:19 --> syntax error, unexpected variable "$session", expecting "function"
+in APPPATH\Controllers\Profil.php on line 60.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-12 14:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-12 14:41:00 --> syntax error, unexpected token "<"
+in APPPATH\Controllers\Profil.php on line 55.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-12 14:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:46:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:46:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:47:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:47:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:49:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:49:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 14:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

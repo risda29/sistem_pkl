@@ -1,0 +1,17 @@
+CRITICAL - 2023-10-01 12:30:03 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\Login.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-01 12:35:31 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\Login.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-01 12:35:51 --> Unmatched '}'
+in APPPATH\Controllers\Login.php on line 43.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-01 12:39:16 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\Login.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

@@ -1,0 +1,314 @@
+CRITICAL - 2023-12-17 12:54:30 --> Undefined property: Config\App::$baseURL
+in SYSTEMPATH\HTTP\SiteURI.php on line 193.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(193): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL()
+ 3 SYSTEMPATH\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL()
+ 4 SYSTEMPATH\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct()
+ 5 SYSTEMPATH\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath()
+ 6 SYSTEMPATH\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+ 7 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+ 8 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+11 SYSTEMPATH\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest()
+13 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+14 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance()
+16 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest()
+17 SYSTEMPATH\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic()
+18 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest()
+19 SYSTEMPATH\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic()
+20 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+21 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-17 12:54:30 --> Uncaught ErrorException: Undefined property: Config\App::$baseURL in C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php:193
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php(193): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL()
+#2 C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL()
+#3 C:\xampp\htdocs\webdesa\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct()
+#4 C:\xampp\htdocs\webdesa\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath()
+#5 C:\xampp\htdocs\webdesa\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#6 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#7 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+#8 C:\xampp\htdocs\webdesa\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance()
+#9 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#10 C:\xampp\htdocs\webdesa\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic()
+#11 C:\xampp\htdocs\webdesa\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest()
+#12 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#13 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+#14 C:\xampp\htdocs\webdesa\system\Config\Services.php(519): CodeIgniter\Config\BaseService::getSharedInstance()
+#15 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#16 C:\xampp\htdocs\webdesa\system\Debug\Exceptions.php(135): CodeIgniter\Config\BaseService::__callStatic()
+#17 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#18 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined property: Config\App::$baseURL
+#0 C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php(193): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL()
+#2 C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL()
+#3 C:\xampp\htdocs\webdesa\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct()
+#4 C:\xampp\htdocs\webdesa\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath()
+#5 C:\xampp\htdocs\webdesa\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#6 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#7 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+#8 C:\xampp\htdocs\webdesa\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance()
+#9 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#10 C:\xampp\htdocs\webdesa\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic()
+#11 C:\xampp\htdocs\webdesa\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest()
+#12 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#13 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+#14 C:\xampp\htdocs\webdesa\system\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance()
+#15 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest()
+#16 C:\xampp\htdocs\webdesa\system\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic()
+#17 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest()
+#18 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic()
+#19 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+#20 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#21 {main}
+in SYSTEMPATH\HTTP\SiteURI.php on line 193.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-17 12:54:32 --> Undefined property: Config\App::$baseURL
+in SYSTEMPATH\HTTP\SiteURI.php on line 193.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(193): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL()
+ 3 SYSTEMPATH\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL()
+ 4 SYSTEMPATH\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct()
+ 5 SYSTEMPATH\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath()
+ 6 SYSTEMPATH\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+ 7 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+ 8 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+11 SYSTEMPATH\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest()
+13 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+14 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance()
+16 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest()
+17 SYSTEMPATH\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic()
+18 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest()
+19 SYSTEMPATH\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic()
+20 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+21 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-17 12:54:32 --> Uncaught ErrorException: Undefined property: Config\App::$baseURL in C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php:193
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php(193): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL()
+#2 C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL()
+#3 C:\xampp\htdocs\webdesa\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct()
+#4 C:\xampp\htdocs\webdesa\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath()
+#5 C:\xampp\htdocs\webdesa\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#6 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#7 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+#8 C:\xampp\htdocs\webdesa\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance()
+#9 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#10 C:\xampp\htdocs\webdesa\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic()
+#11 C:\xampp\htdocs\webdesa\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest()
+#12 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#13 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+#14 C:\xampp\htdocs\webdesa\system\Config\Services.php(519): CodeIgniter\Config\BaseService::getSharedInstance()
+#15 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#16 C:\xampp\htdocs\webdesa\system\Debug\Exceptions.php(135): CodeIgniter\Config\BaseService::__callStatic()
+#17 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#18 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined property: Config\App::$baseURL
+#0 C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php(193): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL()
+#2 C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL()
+#3 C:\xampp\htdocs\webdesa\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct()
+#4 C:\xampp\htdocs\webdesa\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath()
+#5 C:\xampp\htdocs\webdesa\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#6 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#7 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+#8 C:\xampp\htdocs\webdesa\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance()
+#9 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#10 C:\xampp\htdocs\webdesa\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic()
+#11 C:\xampp\htdocs\webdesa\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest()
+#12 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#13 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+#14 C:\xampp\htdocs\webdesa\system\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance()
+#15 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest()
+#16 C:\xampp\htdocs\webdesa\system\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic()
+#17 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest()
+#18 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic()
+#19 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+#20 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#21 {main}
+in SYSTEMPATH\HTTP\SiteURI.php on line 193.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-17 12:54:33 --> Undefined property: Config\App::$baseURL
+in SYSTEMPATH\HTTP\SiteURI.php on line 193.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(193): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL()
+ 3 SYSTEMPATH\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL()
+ 4 SYSTEMPATH\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct()
+ 5 SYSTEMPATH\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath()
+ 6 SYSTEMPATH\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+ 7 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+ 8 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+11 SYSTEMPATH\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest()
+13 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+14 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance()
+16 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest()
+17 SYSTEMPATH\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic()
+18 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest()
+19 SYSTEMPATH\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic()
+20 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+21 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-17 12:54:33 --> Uncaught ErrorException: Undefined property: Config\App::$baseURL in C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php:193
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php(193): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL()
+#2 C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL()
+#3 C:\xampp\htdocs\webdesa\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct()
+#4 C:\xampp\htdocs\webdesa\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath()
+#5 C:\xampp\htdocs\webdesa\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#6 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#7 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+#8 C:\xampp\htdocs\webdesa\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance()
+#9 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#10 C:\xampp\htdocs\webdesa\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic()
+#11 C:\xampp\htdocs\webdesa\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest()
+#12 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#13 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+#14 C:\xampp\htdocs\webdesa\system\Config\Services.php(519): CodeIgniter\Config\BaseService::getSharedInstance()
+#15 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#16 C:\xampp\htdocs\webdesa\system\Debug\Exceptions.php(135): CodeIgniter\Config\BaseService::__callStatic()
+#17 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#18 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined property: Config\App::$baseURL
+#0 C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php(193): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL()
+#2 C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL()
+#3 C:\xampp\htdocs\webdesa\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct()
+#4 C:\xampp\htdocs\webdesa\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath()
+#5 C:\xampp\htdocs\webdesa\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#6 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#7 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+#8 C:\xampp\htdocs\webdesa\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance()
+#9 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#10 C:\xampp\htdocs\webdesa\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic()
+#11 C:\xampp\htdocs\webdesa\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest()
+#12 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#13 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+#14 C:\xampp\htdocs\webdesa\system\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance()
+#15 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest()
+#16 C:\xampp\htdocs\webdesa\system\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic()
+#17 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest()
+#18 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic()
+#19 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+#20 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#21 {main}
+in SYSTEMPATH\HTTP\SiteURI.php on line 193.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-17 12:54:34 --> Undefined property: Config\App::$baseURL
+in SYSTEMPATH\HTTP\SiteURI.php on line 193.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(193): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL()
+ 3 SYSTEMPATH\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL()
+ 4 SYSTEMPATH\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct()
+ 5 SYSTEMPATH\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath()
+ 6 SYSTEMPATH\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+ 7 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+ 8 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+11 SYSTEMPATH\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest()
+13 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+14 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance()
+16 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest()
+17 SYSTEMPATH\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic()
+18 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest()
+19 SYSTEMPATH\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic()
+20 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+21 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-17 12:54:34 --> Uncaught ErrorException: Undefined property: Config\App::$baseURL in C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php:193
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php(193): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL()
+#2 C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL()
+#3 C:\xampp\htdocs\webdesa\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct()
+#4 C:\xampp\htdocs\webdesa\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath()
+#5 C:\xampp\htdocs\webdesa\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#6 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#7 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+#8 C:\xampp\htdocs\webdesa\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance()
+#9 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#10 C:\xampp\htdocs\webdesa\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic()
+#11 C:\xampp\htdocs\webdesa\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest()
+#12 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#13 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+#14 C:\xampp\htdocs\webdesa\system\Config\Services.php(519): CodeIgniter\Config\BaseService::getSharedInstance()
+#15 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#16 C:\xampp\htdocs\webdesa\system\Debug\Exceptions.php(135): CodeIgniter\Config\BaseService::__callStatic()
+#17 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#18 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined property: Config\App::$baseURL
+#0 C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php(193): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL()
+#2 C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL()
+#3 C:\xampp\htdocs\webdesa\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct()
+#4 C:\xampp\htdocs\webdesa\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath()
+#5 C:\xampp\htdocs\webdesa\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#6 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#7 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+#8 C:\xampp\htdocs\webdesa\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance()
+#9 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#10 C:\xampp\htdocs\webdesa\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic()
+#11 C:\xampp\htdocs\webdesa\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest()
+#12 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#13 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+#14 C:\xampp\htdocs\webdesa\system\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance()
+#15 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest()
+#16 C:\xampp\htdocs\webdesa\system\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic()
+#17 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest()
+#18 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic()
+#19 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+#20 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#21 {main}
+in SYSTEMPATH\HTTP\SiteURI.php on line 193.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-12-17 13:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 13:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 13:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 13:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 13:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 13:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 13:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 13:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 13:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 13:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 13:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 13:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 13:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 13:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 13:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 13:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 13:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 13:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 13:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 13:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 13:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 13:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 13:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 13:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 13:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 13:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

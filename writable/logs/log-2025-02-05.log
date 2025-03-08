@@ -1,0 +1,871 @@
+INFO - 2025-02-05 00:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 00:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 00:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 00:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 00:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 00:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 00:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 00:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 00:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 00:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 00:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 00:53:21 --> Invalid file: "kelola_user.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kelola_user.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kelola_user', [], true)
+ 3 APPPATH\Controllers\KelolaUser.php(31): view('kelola_user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\KelolaUser->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelolaUser))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+CRITICAL - 2025-02-05 00:53:33 --> Invalid file: "kelola_user.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kelola_user.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kelola_user', [], true)
+ 3 APPPATH\Controllers\KelolaUser.php(31): view('kelola_user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\KelolaUser->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelolaUser))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 00:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 00:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 00:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 00:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 00:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 00:56:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 00:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 01:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 01:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 01:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 01:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 01:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 01:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 01:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 01:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 01:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 01:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 01:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 01:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 01:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 01:45:50 --> Class "App\Controllers\UserModel" not found
+in APPPATH\Controllers\KelolaUser.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\KelolaUser->setujuUser('23')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelolaUser))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 01:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 01:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 01:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 01:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 01:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 01:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 01:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 01:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 01:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 01:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 01:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 01:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 01:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 01:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 01:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 01:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 01:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 02:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 02:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 06:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 06:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 06:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 06:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 06:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 06:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 06:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 06:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 06:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 06:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 06:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 06:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 06:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 06:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 06:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 06:47:21 --> Undefined array key "pendidikan"
+in APPPATH\Views\v_user.php on line 37.
+ 1 APPPATH\Views\v_user.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pendidikan"', 'C:\\xampp\\htdocs\\bps\\app\\Views\\v_user.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\v_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_user', [], true)
+ 5 APPPATH\Controllers\KelolaUser.php(49): view('v_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\KelolaUser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelolaUser))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 06:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 06:47:44 --> Undefined array key "pendidikan"
+in APPPATH\Views\v_user.php on line 37.
+ 1 APPPATH\Views\v_user.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pendidikan"', 'C:\\xampp\\htdocs\\bps\\app\\Views\\v_user.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\v_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_user', [], true)
+ 5 APPPATH\Controllers\KelolaUser.php(49): view('v_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\KelolaUser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelolaUser))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 06:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 06:47:45 --> Undefined array key "pendidikan"
+in APPPATH\Views\v_user.php on line 37.
+ 1 APPPATH\Views\v_user.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pendidikan"', 'C:\\xampp\\htdocs\\bps\\app\\Views\\v_user.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\v_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_user', [], true)
+ 5 APPPATH\Controllers\KelolaUser.php(49): view('v_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\KelolaUser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelolaUser))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 06:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 06:47:46 --> Undefined array key "pendidikan"
+in APPPATH\Views\v_user.php on line 37.
+ 1 APPPATH\Views\v_user.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pendidikan"', 'C:\\xampp\\htdocs\\bps\\app\\Views\\v_user.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\v_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_user', [], true)
+ 5 APPPATH\Controllers\KelolaUser.php(49): view('v_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\KelolaUser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelolaUser))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 06:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 06:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 07:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 07:00:42 --> Undefined constant " "
+in APPPATH\Views\v_user.php on line 220.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_user', [], true)
+ 4 APPPATH\Controllers\KelolaUser.php(49): view('v_user', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\KelolaUser->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelolaUser))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 07:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 07:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 07:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 07:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 07:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 07:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 07:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 07:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 07:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 07:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 07:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 07:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 07:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 07:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 07:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 07:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 07:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 07:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 07:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 07:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:04:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:05:21 --> Undefined variable $jumlah_interaktif
+in APPPATH\Views\v_home_pengguna.php on line 55.
+ 1 APPPATH\Views\v_home_pengguna.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jumlah_interaktif', 'C:\\xampp\\htdocs\\bps\\app\\Views\\v_home_pengguna.php', 55)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\v_home_pengguna.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_home_pengguna', [], true)
+ 5 APPPATH\Controllers\Pengguna.php(66): view('v_home_pengguna', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengguna->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:07:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:07:14 --> Call to undefined method App\Models\M_Akun::jumlah_interaktif
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pengguna.php(58): CodeIgniter\Model->__call('jumlah_interaktif', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengguna->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:07:15 --> Call to undefined method App\Models\M_Akun::jumlah_interaktif
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pengguna.php(58): CodeIgniter\Model->__call('jumlah_interaktif', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengguna->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:07:42 --> Call to undefined method App\Models\M_Akun::jumlah_interaktif
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pengguna.php(58): CodeIgniter\Model->__call('jumlah_interaktif', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengguna->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:08:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:08:12 --> Call to undefined method App\Models\M_Akun::jumlah_interaktif
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pengguna.php(58): CodeIgniter\Model->__call('jumlah_interaktif', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengguna->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:24:18 --> Call to undefined method App\Models\M_Akun::jumlah_interaktif
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pengguna.php(59): CodeIgniter\Model->__call('jumlah_interaktif', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengguna->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:24:19 --> Call to undefined method App\Models\M_Akun::jumlah_interaktif
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pengguna.php(59): CodeIgniter\Model->__call('jumlah_interaktif', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengguna->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:30:35 --> Call to undefined method App\Models\M_Akun::jumlah_interaktif
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pengguna.php(59): CodeIgniter\Model->__call('jumlah_interaktif', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengguna->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:30:37 --> Call to undefined method App\Models\M_Akun::jumlah_interaktif
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pengguna.php(59): CodeIgniter\Model->__call('jumlah_interaktif', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengguna->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:30:38 --> Call to undefined method App\Models\M_Akun::jumlah_interaktif
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pengguna.php(59): CodeIgniter\Model->__call('jumlah_interaktif', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengguna->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:31:15 --> Call to undefined method App\Models\M_Akun::jumlah_interaktif
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pengguna.php(59): CodeIgniter\Model->__call('jumlah_interaktif', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengguna->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:31:16 --> Call to undefined method App\Models\M_Akun::jumlah_interaktif
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pengguna.php(59): CodeIgniter\Model->__call('jumlah_interaktif', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengguna->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:31:16 --> Call to undefined method App\Models\M_Akun::jumlah_interaktif
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pengguna.php(59): CodeIgniter\Model->__call('jumlah_interaktif', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengguna->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:31:17 --> Call to undefined method App\Models\M_Akun::jumlah_interaktif
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pengguna.php(59): CodeIgniter\Model->__call('jumlah_interaktif', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengguna->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:31:17 --> Call to undefined method App\Models\M_Akun::jumlah_interaktif
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pengguna.php(59): CodeIgniter\Model->__call('jumlah_interaktif', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengguna->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:32:03 --> Undefined variable $jumlah_interaktif
+in APPPATH\Views\v_home_pengguna.php on line 55.
+ 1 APPPATH\Views\v_home_pengguna.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jumlah_interaktif', 'C:\\xampp\\htdocs\\bps\\app\\Views\\v_home_pengguna.php', 55)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\v_home_pengguna.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_home_pengguna', [], true)
+ 5 APPPATH\Controllers\Pengguna.php(66): view('v_home_pengguna', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengguna->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:32:37 --> Call to undefined method App\Models\M_Akun::jumlah_interaktif
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pengguna.php(59): CodeIgniter\Model->__call('jumlah_interaktif', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengguna->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:33:55 --> Undefined variable $showKelasInteraktif
+in APPPATH\Views\template\sidebar_pengguna.php on line 93.
+ 1 APPPATH\Views\template\sidebar_pengguna.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $showKelasInteraktif', 'C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php', 93)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/sidebar_pengguna', [], true)
+ 5 APPPATH\Views\v_story_pengguna.php(4): view('template/sidebar_pengguna')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\v_story_pengguna.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_story_pengguna', [], true)
+ 9 APPPATH\Controllers\Story_pengguna.php(30): view('v_story_pengguna', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Story_pengguna->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Story_pengguna))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:34:00 --> Undefined variable $showKelasInteraktif
+in APPPATH\Views\template\sidebar_pengguna.php on line 93.
+ 1 APPPATH\Views\template\sidebar_pengguna.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $showKelasInteraktif', 'C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php', 93)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/sidebar_pengguna', [], true)
+ 5 APPPATH\Views\v_kelas_pengguna.php(4): view('template/sidebar_pengguna')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\v_kelas_pengguna.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_kelas_pengguna', [], true)
+ 9 APPPATH\Controllers\Kelas_pengguna.php(30): view('v_kelas_pengguna', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kelas_pengguna->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas_pengguna))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:34:42 --> Undefined variable $showKelasInteraktif
+in APPPATH\Views\template\sidebar_pengguna.php on line 95.
+ 1 APPPATH\Views\template\sidebar_pengguna.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $showKelasInteraktif', 'C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php', 95)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/sidebar_pengguna', [], true)
+ 5 APPPATH\Views\v_kelas_pengguna.php(4): view('template/sidebar_pengguna')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\v_kelas_pengguna.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_kelas_pengguna', [], true)
+ 9 APPPATH\Controllers\Kelas_pengguna.php(30): view('v_kelas_pengguna', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kelas_pengguna->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas_pengguna))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:34:47 --> Undefined variable $showKelasInteraktif
+in APPPATH\Views\template\sidebar_pengguna.php on line 95.
+ 1 APPPATH\Views\template\sidebar_pengguna.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $showKelasInteraktif', 'C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php', 95)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/sidebar_pengguna', [], true)
+ 5 APPPATH\Views\v_story_pengguna.php(4): view('template/sidebar_pengguna')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\v_story_pengguna.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_story_pengguna', [], true)
+ 9 APPPATH\Controllers\Story_pengguna.php(30): view('v_story_pengguna', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Story_pengguna->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Story_pengguna))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:36:16 --> Undefined variable $showKelasInteraktif
+in APPPATH\Views\template\sidebar_pengguna.php on line 84.
+ 1 APPPATH\Views\template\sidebar_pengguna.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $showKelasInteraktif', 'C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php', 84)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/sidebar_pengguna', [], true)
+ 5 APPPATH\Views\v_story_pengguna.php(4): view('template/sidebar_pengguna')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\v_story_pengguna.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_story_pengguna', [], true)
+ 9 APPPATH\Controllers\Story_pengguna.php(30): view('v_story_pengguna', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Story_pengguna->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Story_pengguna))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:36:17 --> Undefined variable $showKelasInteraktif
+in APPPATH\Views\template\sidebar_pengguna.php on line 84.
+ 1 APPPATH\Views\template\sidebar_pengguna.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $showKelasInteraktif', 'C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php', 84)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/sidebar_pengguna', [], true)
+ 5 APPPATH\Views\v_story_pengguna.php(4): view('template/sidebar_pengguna')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\v_story_pengguna.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_story_pengguna', [], true)
+ 9 APPPATH\Controllers\Story_pengguna.php(30): view('v_story_pengguna', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Story_pengguna->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Story_pengguna))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:43:25 --> Undefined variable $user
+in APPPATH\Views\template\sidebar_pengguna.php on line 84.
+ 1 APPPATH\Views\template\sidebar_pengguna.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php', 84)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/sidebar_pengguna', [], true)
+ 5 APPPATH\Views\v_story_pengguna.php(4): view('template/sidebar_pengguna')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\v_story_pengguna.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_story_pengguna', [], true)
+ 9 APPPATH\Controllers\Story_pengguna.php(30): view('v_story_pengguna', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Story_pengguna->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Story_pengguna))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:43:26 --> Undefined variable $user
+in APPPATH\Views\template\sidebar_pengguna.php on line 84.
+ 1 APPPATH\Views\template\sidebar_pengguna.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php', 84)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/sidebar_pengguna', [], true)
+ 5 APPPATH\Views\v_story_pengguna.php(4): view('template/sidebar_pengguna')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\v_story_pengguna.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_story_pengguna', [], true)
+ 9 APPPATH\Controllers\Story_pengguna.php(30): view('v_story_pengguna', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Story_pengguna->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Story_pengguna))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:49:24 --> Undefined variable $user
+in APPPATH\Views\template\sidebar_pengguna.php on line 84.
+ 1 APPPATH\Views\template\sidebar_pengguna.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php', 84)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/sidebar_pengguna', [], true)
+ 5 APPPATH\Views\v_story_pengguna.php(4): view('template/sidebar_pengguna')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\v_story_pengguna.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_story_pengguna', [], true)
+ 9 APPPATH\Controllers\Story_pengguna.php(30): view('v_story_pengguna', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Story_pengguna->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Story_pengguna))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:49:27 --> Undefined variable $user
+in APPPATH\Views\template\sidebar_pengguna.php on line 84.
+ 1 APPPATH\Views\template\sidebar_pengguna.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php', 84)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/sidebar_pengguna', [], true)
+ 5 APPPATH\Views\v_home_pengguna.php(4): view('template/sidebar_pengguna')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\v_home_pengguna.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_home_pengguna', [], true)
+ 9 APPPATH\Controllers\Pengguna.php(68): view('v_home_pengguna', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengguna->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:49:28 --> Undefined variable $user
+in APPPATH\Views\template\sidebar_pengguna.php on line 84.
+ 1 APPPATH\Views\template\sidebar_pengguna.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php', 84)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/sidebar_pengguna', [], true)
+ 5 APPPATH\Views\v_home_pengguna.php(4): view('template/sidebar_pengguna')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\v_home_pengguna.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_home_pengguna', [], true)
+ 9 APPPATH\Controllers\Pengguna.php(68): view('v_home_pengguna', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengguna->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:49:29 --> Undefined variable $user
+in APPPATH\Views\template\sidebar_pengguna.php on line 84.
+ 1 APPPATH\Views\template\sidebar_pengguna.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php', 84)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/sidebar_pengguna', [], true)
+ 5 APPPATH\Views\v_home_pengguna.php(4): view('template/sidebar_pengguna')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\v_home_pengguna.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_home_pengguna', [], true)
+ 9 APPPATH\Controllers\Pengguna.php(68): view('v_home_pengguna', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengguna->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:55:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:55:29 --> Undefined variable $user
+in APPPATH\Views\template\sidebar_pengguna.php on line 84.
+ 1 APPPATH\Views\template\sidebar_pengguna.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php', 84)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/sidebar_pengguna', [], true)
+ 5 APPPATH\Views\v_home_pengguna.php(4): view('template/sidebar_pengguna')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\v_home_pengguna.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_home_pengguna', [], true)
+ 9 APPPATH\Controllers\Pengguna.php(68): view('v_home_pengguna', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengguna->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:55:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:55:38 --> Undefined variable $user
+in APPPATH\Views\template\sidebar_pengguna.php on line 84.
+ 1 APPPATH\Views\template\sidebar_pengguna.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php', 84)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/sidebar_pengguna', [], true)
+ 5 APPPATH\Views\v_home_pengguna.php(4): view('template/sidebar_pengguna')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\v_home_pengguna.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_home_pengguna', [], true)
+ 9 APPPATH\Controllers\Pengguna.php(68): view('v_home_pengguna', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengguna->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 08:55:40 --> Undefined variable $user
+in APPPATH\Views\template\sidebar_pengguna.php on line 84.
+ 1 APPPATH\Views\template\sidebar_pengguna.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php', 84)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/sidebar_pengguna', [], true)
+ 5 APPPATH\Views\v_home_pengguna.php(4): view('template/sidebar_pengguna')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\v_home_pengguna.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_home_pengguna', [], true)
+ 9 APPPATH\Controllers\Pengguna.php(68): view('v_home_pengguna', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengguna->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 08:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 08:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:05:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 09:09:05 --> Undefined variable $user
+in APPPATH\Views\template\sidebar_pengguna.php on line 84.
+ 1 APPPATH\Views\template\sidebar_pengguna.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php', 84)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/sidebar_pengguna', [], true)
+ 5 APPPATH\Views\v_home_pengguna.php(4): view('template/sidebar_pengguna')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\v_home_pengguna.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_home_pengguna', [], true)
+ 9 APPPATH\Controllers\Pengguna.php(68): view('v_home_pengguna', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengguna->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 09:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 09:09:06 --> Undefined variable $user
+in APPPATH\Views\template\sidebar_pengguna.php on line 84.
+ 1 APPPATH\Views\template\sidebar_pengguna.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php', 84)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/sidebar_pengguna', [], true)
+ 5 APPPATH\Views\v_home_pengguna.php(4): view('template/sidebar_pengguna')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\v_home_pengguna.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_home_pengguna', [], true)
+ 9 APPPATH\Controllers\Pengguna.php(68): view('v_home_pengguna', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengguna->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 09:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 09:20:54 --> Undefined variable $user
+in APPPATH\Views\template\sidebar_pengguna.php on line 84.
+ 1 APPPATH\Views\template\sidebar_pengguna.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php', 84)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/sidebar_pengguna', [], true)
+ 5 APPPATH\Views\v_home_pengguna.php(4): view('template/sidebar_pengguna')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\v_home_pengguna.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_home_pengguna', [], true)
+ 9 APPPATH\Controllers\Pengguna.php(68): view('v_home_pengguna', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengguna->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 09:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 09:20:55 --> Undefined variable $user
+in APPPATH\Views\template\sidebar_pengguna.php on line 84.
+ 1 APPPATH\Views\template\sidebar_pengguna.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php', 84)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/sidebar_pengguna', [], true)
+ 5 APPPATH\Views\v_home_pengguna.php(4): view('template/sidebar_pengguna')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\v_home_pengguna.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_home_pengguna', [], true)
+ 9 APPPATH\Controllers\Pengguna.php(68): view('v_home_pengguna', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengguna->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 09:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 09:21:29 --> Undefined variable $showKelasInteraktif
+in APPPATH\Views\template\sidebar_pengguna.php on line 84.
+ 1 APPPATH\Views\template\sidebar_pengguna.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $showKelasInteraktif', 'C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php', 84)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/sidebar_pengguna', [], true)
+ 5 APPPATH\Views\v_kelas_pengguna.php(4): view('template/sidebar_pengguna')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\v_kelas_pengguna.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_kelas_pengguna', [], true)
+ 9 APPPATH\Controllers\Kelas_pengguna.php(30): view('v_kelas_pengguna', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kelas_pengguna->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas_pengguna))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 09:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 09:21:47 --> Undefined variable $showKelasInteraktif
+in APPPATH\Views\template\sidebar_pengguna.php on line 95.
+ 1 APPPATH\Views\template\sidebar_pengguna.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $showKelasInteraktif', 'C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php', 95)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\template\\sidebar_pengguna.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/sidebar_pengguna', [], true)
+ 5 APPPATH\Views\v_kelas_pengguna.php(4): view('template/sidebar_pengguna')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\bps\\app\\Views\\v_kelas_pengguna.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_kelas_pengguna', [], true)
+ 9 APPPATH\Controllers\Kelas_pengguna.php(30): view('v_kelas_pengguna', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kelas_pengguna->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas_pengguna))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 09:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 09:22:32 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Kelasinteraktif_pengguna.php on line 27.
+ 1 APPPATH\Controllers\Kelasinteraktif_pengguna.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bps\\app\\Controllers\\Kelasinteraktif_pengguna.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kelasinteraktif_pengguna->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelasinteraktif_pengguna))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 09:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 09:22:52 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Kelasinteraktif_pengguna.php on line 27.
+ 1 APPPATH\Controllers\Kelasinteraktif_pengguna.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bps\\app\\Controllers\\Kelasinteraktif_pengguna.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kelasinteraktif_pengguna->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelasinteraktif_pengguna))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 09:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:33:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 09:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 22:36:05 --> Class "App\Controllers\ResponseInterface" not found
+in APPPATH\Controllers\Kelas.php on line 231.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kelas->preview('1736498885_2ff1f10a1d67247ef278.pdf')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+CRITICAL - 2025-02-05 22:38:19 --> syntax error, unexpected token "{", expecting "function" or "const"
+in APPPATH\Controllers\Kelas.php on line 215.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\bps\\app\\Controllers\\Kelas.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Kelas')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Kelas')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Kelas', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-02-05 22:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 22:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

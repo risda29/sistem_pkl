@@ -1,0 +1,3 @@
+CRITICAL - 2023-10-02 04:25:03 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\Login.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

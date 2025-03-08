@@ -1,0 +1,157 @@
+<?php echo view('template/header'); ?>
+
+<body>
+    <?php echo view('template/sidebar'); ?>
+    <div class="main-panel">
+        <div class="content">
+            <div class="page-inner">
+                <div class="col-md-12">
+                    <?php if (session()->getFlashdata('success')): ?>
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            <?= session()->getFlashdata('success'); ?>
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                    <?php endif; ?>
+
+                    <!-- Table Kelola User -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">Kuesioner</h4>
+                        </div>
+                        <div class="card-body">
+                            <button class="btn btn-info btn-round ml-auto" data-toggle="modal"
+                                data-target="#addQuestionModal">
+                                <i class="fa fa-plus"></i> Tambah
+                            </button>
+                        </div>
+                            <div class="table-responsive">
+                                <table id="example" class="table table-bordered table-hover">
+                                    <thead class="thead-light">
+                                        <tr>
+                                            <th>No</th>
+                                            <th>Pertanyaan</th>
+                                            <th style="width: 10%">Aksi</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <?php foreach ($kuesioner as $index => $item): ?>
+                                            <tr>
+                                                <td><?= esc($index + 1) ?></td>
+                                                <td><?= esc($item['pertanyaan']) ?></td>
+                                                <td>
+                                                    <div class="btn-group" role="group" aria-label="Basic example">
+                                                        <a href="#" class="btn btn-primary btn-sm edit-kelas"
+                                                            data-toggle="modal"
+                                                            data-target="#modalEdit<?= $item['id_kuesioner']; ?>" title="Edit">
+                                                            <i class="fa fa-edit"></i> Edit
+                                                        </a>
+                                                        <a href="#" class="btn btn-danger btn-sm hapus-kelas"
+                                                            data-toggle="modal"
+                                                            data-target="#modalHapus<?= $item['id_kuesioner']; ?>" title="Hapus">
+                                                            <i class="fa fa-trash"></i> Hapus
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        <?php endforeach; ?>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal Tambah Pertanyaan -->
+                    <div class="modal fade" id="addQuestionModal" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">
+                                        <span class="fw-mediumbold">Tambah Pertanyaan</span>
+                                    </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form method="POST" action="<?= base_url('Kuesioner/tambah') ?>"
+                                        enctype="multipart/form-data">
+                                        <div class="form-group">
+                                            <label for="pertanyaan">Pertanyaan</label>
+                                            <input id="pertanyaan" name="pertanyaan" type="text" class="form-control"
+                                                placeholder="Isi lah Pertanyaan Mengenai Kuesioner ini" required>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Simpan</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal Edit Pertanyaan -->
+                    <?php foreach ($kuesioner as $item): ?>
+                        <div class="modal fade" id="modalEdit<?= $item['id_kuesioner']; ?>" tabindex="-1" role="dialog"
+                            aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">
+                                            <span class="fw-mediumbold">Edit Pertanyaan</span>
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form method="POST"
+                                            action="<?= base_url('Kuesioner/edit/' . $item['id_kuesioner']) ?>"
+                                            enctype="multipart/form-data">
+                                            <div class="form-group">
+                                                <label for="pertanyaan">Pertanyaan</label>
+                                                <input id="pertanyaan" name="pertanyaan" type="text" class="form-control"
+                                                    value="<?= esc($item['pertanyaan']) ?>" required>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary">Simpan</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
+
+                    <!-- Modal Hapus Pertanyaan -->
+                    <?php foreach ($kuesioner as $item): ?>
+                        <div class="modal fade" id="modalHapus<?= $item['id_kuesioner']; ?>" tabindex="-1" role="dialog"
+                            aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">
+                                            <span class="fw-mediumbold">Hapus Pertanyaan</span>
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Apakah Anda yakin ingin menghapus pertanyaan ini?</p>
+                                        <form method="POST"
+                                            action="<?= base_url('Kuesioner/hapus/' . $item['id_kuesioner']) ?>"
+                                            enctype="multipart/form-data">
+                                            <button type="submit" class="btn btn-danger">Hapus</button>
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
+
+                </div>
+            </div>
+        </div>
+
+        <?php echo view('template/footer'); ?>
+    </div>
+</body>

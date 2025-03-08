@@ -1,0 +1,323 @@
+INFO - 2023-11-13 01:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-13 01:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-13 01:27:57 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Models\M_Berita.php on line 50.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webdesa\\app\\Models\\M_Berita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_Berita')
+ 3 APPPATH\Controllers\Admin.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_Berita')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 01:28:20 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Models\M_Berita.php on line 50.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webdesa\\app\\Models\\M_Berita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_Berita')
+ 3 APPPATH\Controllers\Berita.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_Berita')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 01:43:12 --> Config\App::$baseURL is invalid.
+in SYSTEMPATH\HTTP\SiteURI.php on line 197.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+ 2 SYSTEMPATH\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), null, null)
+ 3 SYSTEMPATH\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Berita/index', null)
+ 4 SYSTEMPATH\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Berita/index')
+ 5 SYSTEMPATH\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(null, false)
+ 7 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', [...])
+ 8 SYSTEMPATH\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', null)
+ 9 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+10 SYSTEMPATH\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', [])
+11 SYSTEMPATH\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+12 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+13 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', [...])
+14 SYSTEMPATH\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+15 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+16 SYSTEMPATH\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+17 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+18 SYSTEMPATH\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic('createRequest', [...])
+19 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+20 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 01:43:12 --> Uncaught CodeIgniter\Exceptions\ConfigException: Config\App::$baseURL is invalid. in C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php:197
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xampp\htdocs\webdesa\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Berita/index', NULL)
+#3 C:\xampp\htdocs\webdesa\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Berita/index')
+#4 C:\xampp\htdocs\webdesa\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xampp\htdocs\webdesa\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xampp\htdocs\webdesa\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xampp\htdocs\webdesa\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#12 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xampp\htdocs\webdesa\system\Config\Services.php(519): CodeIgniter\Config\BaseService::getSharedInstance('request', NULL)
+#14 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#15 C:\xampp\htdocs\webdesa\system\Debug\Exceptions.php(135): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#16 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\ConfigException))
+#17 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\ConfigException
+Config\App::$baseURL is invalid.
+#0 C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xampp\htdocs\webdesa\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xampp\htdocs\webdesa\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Berita/index', NULL)
+#3 C:\xampp\htdocs\webdesa\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Berita/index')
+#4 C:\xampp\htdocs\webdesa\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xampp\htdocs\webdesa\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xampp\htdocs\webdesa\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xampp\htdocs\webdesa\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+#12 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xampp\htdocs\webdesa\system\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+#14 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+#15 C:\xampp\htdocs\webdesa\system\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#16 C:\xampp\htdocs\webdesa\system\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+#17 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic('createRequest', Array)
+#18 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+#19 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#20 {main}
+in SYSTEMPATH\HTTP\SiteURI.php on line 197.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-13 01:51:07 --> Undefined variable $gambarData
+in APPPATH\Views\v_data_berita.php on line 272.
+ 1 APPPATH\Views\v_data_berita.php(272): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $gambarData', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_data_berita.php', 272)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_data_berita.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_data_berita', [], true)
+ 5 APPPATH\Controllers\Berita.php(13): view('v_data_berita', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 01:52:03 --> syntax error, unexpected token ")"
+in APPPATH\Views\v_data_berita.php on line 272.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_data_berita', [], true)
+ 3 APPPATH\Controllers\Berita.php(13): view('v_data_berita', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 02:22:15 --> Object of class App\Models\M_Berita could not be converted to string
+in APPPATH\Controllers\Berita.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->update_berita('24')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 02:23:17 --> Too few arguments to function App\Models\M_Berita::update_berita(), 1 passed in C:\xampp\htdocs\webdesa\app\Controllers\Berita.php on line 64 and exactly 2 expected
+in APPPATH\Models\M_Berita.php on line 40.
+ 1 APPPATH\Controllers\Berita.php(64): App\Models\M_Berita->update_berita('24')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->update_berita('24')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 02:23:52 --> Object of class App\Models\M_Berita could not be converted to string
+in APPPATH\Controllers\Berita.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->update_berita('24')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 02:24:22 --> Object of class App\Models\M_Berita could not be converted to string
+in APPPATH\Controllers\Berita.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->update_berita('24')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 02:24:23 --> Object of class App\Models\M_Berita could not be converted to string
+in APPPATH\Controllers\Berita.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->update_berita('24')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 02:25:48 --> Object of class App\Models\M_Berita could not be converted to string
+in APPPATH\Controllers\Berita.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->update_berita('24')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 02:26:30 --> Call to a member function getPost() on null
+in APPPATH\Models\M_Berita.php on line 42.
+ 1 APPPATH\Controllers\Berita.php(64): App\Models\M_Berita->update_berita('24')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->update_berita('24')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 02:35:11 --> Allowed fields must be specified for model: "App\Models\M_Berita"
+in SYSTEMPATH\BaseModel.php on line 1257.
+ 1 SYSTEMPATH\BaseModel.php(1257): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_Berita')
+ 2 SYSTEMPATH\BaseModel.php(925): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 4 APPPATH\Models\M_Berita.php(69): CodeIgniter\Model->update()
+ 5 APPPATH\Controllers\Berita.php(75): App\Models\M_Berita->update_berita([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->update_berita('24')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 02:41:46 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, null)
+ 4 APPPATH\Models\M_Berita.php(53): CodeIgniter\Model->update()
+ 5 APPPATH\Controllers\Berita.php(65): App\Models\M_Berita->update_berita([])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->update_berita('24')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 02:42:47 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, null)
+ 4 APPPATH\Models\M_Berita.php(53): CodeIgniter\Model->update()
+ 5 APPPATH\Controllers\Berita.php(75): App\Models\M_Berita->update_berita([])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->update_berita('24')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 02:42:52 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, null)
+ 4 APPPATH\Models\M_Berita.php(53): CodeIgniter\Model->update()
+ 5 APPPATH\Controllers\Berita.php(75): App\Models\M_Berita->update_berita([])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->update_berita('24')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 02:44:02 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, null)
+ 4 APPPATH\Models\M_Berita.php(53): CodeIgniter\Model->update()
+ 5 APPPATH\Controllers\Berita.php(75): App\Models\M_Berita->update_berita([])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->update_berita('24')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 02:45:18 --> Undefined array key "judul"
+in APPPATH\Models\M_Berita.php on line 43.
+ 1 APPPATH\Models\M_Berita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "judul"', 'C:\\xampp\\htdocs\\webdesa\\app\\Models\\M_Berita.php', 43)
+ 2 APPPATH\Controllers\Berita.php(75): App\Models\M_Berita->update_berita([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->update_berita('24')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 02:53:10 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Models\M_Berita.php(54): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\webdesa\\public/uploads/berita/', '')
+ 3 APPPATH\Controllers\Berita.php(75): App\Models\M_Berita->update_berita([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->update_berita('24')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 02:56:47 --> Cannot access offset of type string on string
+in APPPATH\Models\M_Berita.php on line 42.
+ 1 APPPATH\Controllers\Berita.php(66): App\Models\M_Berita->update_berita('24')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->update_berita('24')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 02:59:16 --> Cannot access offset of type string on string
+in APPPATH\Models\M_Berita.php on line 42.
+ 1 APPPATH\Controllers\Berita.php(66): App\Models\M_Berita->update_berita('24')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->update_berita('24')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 03:13:14 --> Call to a member function getPost() on null
+in APPPATH\Models\M_Berita.php on line 44.
+ 1 APPPATH\Controllers\Berita.php(64): App\Models\M_Berita->update_berita('24')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->update_berita('24')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 03:13:19 --> Call to a member function getPost() on null
+in APPPATH\Models\M_Berita.php on line 44.
+ 1 APPPATH\Controllers\Berita.php(64): App\Models\M_Berita->update_berita('24')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->update_berita('24')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 03:14:00 --> Call to a member function getPost() on null
+in APPPATH\Models\M_Berita.php on line 44.
+ 1 APPPATH\Controllers\Berita.php(64): App\Models\M_Berita->update_berita('24')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->update_berita('24')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 03:28:22 --> Call to a member function getPost() on null
+in APPPATH\Models\M_Berita.php on line 44.
+ 1 APPPATH\Controllers\Berita.php(64): App\Models\M_Berita->update_berita('24')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->update_berita('24')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 03:36:25 --> Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::getFile()
+in APPPATH\Models\M_Berita.php on line 51.
+ 1 APPPATH\Controllers\Berita.php(82): App\Models\M_Berita->update_berita([...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->update_berita('24')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 03:36:39 --> Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::getFile()
+in APPPATH\Models\M_Berita.php on line 51.
+ 1 APPPATH\Controllers\Berita.php(82): App\Models\M_Berita->update_berita([...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->update_berita('25')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 03:37:46 --> Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::getFile()
+in APPPATH\Models\M_Berita.php on line 51.
+ 1 APPPATH\Controllers\Berita.php(82): App\Models\M_Berita->update_berita([...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->update_berita('25')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-13 07:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-13 07:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-13 07:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-13 07:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-13 07:58:10 --> Undefined variable $pathGambarDatabase
+in APPPATH\Views\v_data_berita.php on line 271.
+ 1 APPPATH\Views\v_data_berita.php(271): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pathGambarDatabase', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_data_berita.php', 271)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_data_berita.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_data_berita', [], true)
+ 5 APPPATH\Controllers\Berita.php(13): view('v_data_berita', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-13 13:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-13 13:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-13 13:53:41 --> Invalid file: "templates/sidebar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/sidebar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 3 APPPATH\Views\v_tentang_kami.php(30): view('templates/sidebar')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_tentang_kami.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_tentang_kami', [], true)
+ 7 APPPATH\Controllers\TentangKami.php(13): view('v_tentang_kami', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TentangKami->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TentangKami))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-13 14:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-13 14:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-13 14:26:04 --> Allowed memory size of 2147483648 bytes exhausted (tried to allocate 630784 bytes)
+in SYSTEMPATH\View\View.php on line 225.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

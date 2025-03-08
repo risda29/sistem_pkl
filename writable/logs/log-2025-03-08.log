@@ -1,0 +1,649 @@
+INFO - 2025-03-08 10:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 10:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 10:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 10:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 14:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 14:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 14:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 14:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 14:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 14:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-08 14:25:43 --> Undefined array key "leveluser"
+in APPPATH\Controllers\Kuesioner.php on line 21.
+ 1 APPPATH\Controllers\Kuesioner.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "leveluser"', 'C:\\Users\\USER\\Documents\\KULIAH\\PKL\\apk_bps\\app\\Controllers\\Kuesioner.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kuesioner->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\Documents\\KULIAH\\PKL\\apk_bps\\public\\index.php')
+INFO - 2025-03-08 14:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 14:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 14:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 14:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 14:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 14:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 14:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 14:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 14:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 14:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 14:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 14:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 14:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 14:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 14:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 14:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 14:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 14:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-08 15:04:19 --> mysqli_sql_exception: Table 'bpstala.response' doesn't exist in C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseBuilder.php(1800): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', NULL, false)
+#4 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseBuilder.php(2191): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Model.php(353): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100)
+#6 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\BaseModel.php(880): CodeIgniter\Model->doInsertBatch(Array, NULL, 100, false)
+#7 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\app\Controllers\Kuesioner_p.php(46): CodeIgniter\BaseModel->insertBatch(Array)
+#8 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(919): App\Controllers\Kuesioner_p->simpanJawaban()
+#9 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+#10 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\D...')
+#13 {main}
+CRITICAL - 2025-03-08 15:04:19 --> Table 'bpstala.response' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1800): CodeIgniter\Database\BaseConnection->query('INSERT INTO `response` ()
+VALUES ()', null, false)
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2191): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 3 SYSTEMPATH\Model.php(353): CodeIgniter\Database\BaseBuilder->insertBatch([...], null, 100)
+ 4 SYSTEMPATH\BaseModel.php(880): CodeIgniter\Model->doInsertBatch([...], null, 100, false)
+ 5 APPPATH\Controllers\Kuesioner_p.php(46): CodeIgniter\BaseModel->insertBatch([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kuesioner_p->simpanJawaban()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\Documents\\KULIAH\\PKL\\apk_bps\\public\\index.php')
+INFO - 2025-03-08 15:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-08 15:05:33 --> mysqli_sql_exception: Table 'bpstala.response' doesn't exist in C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseBuilder.php(1800): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', NULL, false)
+#4 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseBuilder.php(2191): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Model.php(353): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100)
+#6 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\BaseModel.php(880): CodeIgniter\Model->doInsertBatch(Array, NULL, 100, false)
+#7 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\app\Controllers\Kuesioner_p.php(46): CodeIgniter\BaseModel->insertBatch(Array)
+#8 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(919): App\Controllers\Kuesioner_p->simpanJawaban()
+#9 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+#10 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\D...')
+#13 {main}
+CRITICAL - 2025-03-08 15:05:33 --> Table 'bpstala.response' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1800): CodeIgniter\Database\BaseConnection->query('INSERT INTO `response` ()
+VALUES ()', null, false)
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2191): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 3 SYSTEMPATH\Model.php(353): CodeIgniter\Database\BaseBuilder->insertBatch([...], null, 100)
+ 4 SYSTEMPATH\BaseModel.php(880): CodeIgniter\Model->doInsertBatch([...], null, 100, false)
+ 5 APPPATH\Controllers\Kuesioner_p.php(46): CodeIgniter\BaseModel->insertBatch([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kuesioner_p->simpanJawaban()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\Documents\\KULIAH\\PKL\\apk_bps\\public\\index.php')
+INFO - 2025-03-08 15:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-08 15:07:11 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\app\Controllers\Kuesioner_p.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+#8 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+#9 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\D...')
+#12 {main}
+CRITICAL - 2025-03-08 15:07:11 --> Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kuesioner_user`
+WHERE `user_id` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Kuesioner_p.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\Documents\\KULIAH\\PKL\\apk_bps\\public\\index.php')
+INFO - 2025-03-08 15:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-08 15:08:45 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\app\Controllers\Kuesioner_p.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+#8 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+#9 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\D...')
+#12 {main}
+CRITICAL - 2025-03-08 15:08:45 --> Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kuesioner_user`
+WHERE `user_id` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Kuesioner_p.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\Documents\\KULIAH\\PKL\\apk_bps\\public\\index.php')
+INFO - 2025-03-08 15:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-08 15:08:48 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\app\Controllers\Kuesioner_p.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+#8 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+#9 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\D...')
+#12 {main}
+CRITICAL - 2025-03-08 15:08:48 --> Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kuesioner_user`
+WHERE `user_id` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Kuesioner_p.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\Documents\\KULIAH\\PKL\\apk_bps\\public\\index.php')
+INFO - 2025-03-08 15:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-08 15:09:18 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\app\Controllers\Kuesioner_p.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+#8 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+#9 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\D...')
+#12 {main}
+CRITICAL - 2025-03-08 15:09:18 --> Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kuesioner_user`
+WHERE `user_id` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Kuesioner_p.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\Documents\\KULIAH\\PKL\\apk_bps\\public\\index.php')
+INFO - 2025-03-08 15:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-08 15:09:19 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\app\Controllers\Kuesioner_p.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+#8 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+#9 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\D...')
+#12 {main}
+CRITICAL - 2025-03-08 15:09:19 --> Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kuesioner_user`
+WHERE `user_id` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Kuesioner_p.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\Documents\\KULIAH\\PKL\\apk_bps\\public\\index.php')
+INFO - 2025-03-08 15:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-08 15:09:22 --> mysqli_sql_exception: Column 'id_user' cannot be null in C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ku...', 0)
+#1 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ku...')
+#2 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ku...')
+#3 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseBuilder.php(1800): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ku...', NULL, false)
+#4 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseBuilder.php(2191): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Model.php(353): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100)
+#6 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\BaseModel.php(880): CodeIgniter\Model->doInsertBatch(Array, NULL, 100, false)
+#7 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\app\Controllers\Kuesioner_p.php(44): CodeIgniter\BaseModel->insertBatch(Array)
+#8 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(919): App\Controllers\Kuesioner_p->simpanJawaban()
+#9 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+#10 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\D...')
+#13 {main}
+CRITICAL - 2025-03-08 15:09:22 --> Column 'id_user' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1800): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kuesioner_user` (`id_kuesioner`, `id_user`)
+VALUES (2,NULL)', null, false)
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2191): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 3 SYSTEMPATH\Model.php(353): CodeIgniter\Database\BaseBuilder->insertBatch([...], null, 100)
+ 4 SYSTEMPATH\BaseModel.php(880): CodeIgniter\Model->doInsertBatch([...], null, 100, false)
+ 5 APPPATH\Controllers\Kuesioner_p.php(44): CodeIgniter\BaseModel->insertBatch([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kuesioner_p->simpanJawaban()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\Documents\\KULIAH\\PKL\\apk_bps\\public\\index.php')
+INFO - 2025-03-08 15:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-08 15:10:01 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\app\Controllers\Kuesioner_p.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+#8 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+#9 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\D...')
+#12 {main}
+CRITICAL - 2025-03-08 15:10:01 --> Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kuesioner_user`
+WHERE `user_id` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Kuesioner_p.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\Documents\\KULIAH\\PKL\\apk_bps\\public\\index.php')
+INFO - 2025-03-08 15:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-08 15:10:06 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\app\Controllers\Kuesioner_p.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+#8 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+#9 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\D...')
+#12 {main}
+CRITICAL - 2025-03-08 15:10:06 --> Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kuesioner_user`
+WHERE `user_id` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Kuesioner_p.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\Documents\\KULIAH\\PKL\\apk_bps\\public\\index.php')
+INFO - 2025-03-08 15:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-08 15:10:11 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\app\Controllers\Kuesioner_p.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+#8 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+#9 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\D...')
+#12 {main}
+CRITICAL - 2025-03-08 15:10:11 --> Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kuesioner_user`
+WHERE `user_id` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Kuesioner_p.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\Documents\\KULIAH\\PKL\\apk_bps\\public\\index.php')
+INFO - 2025-03-08 15:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-08 15:11:45 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\app\Controllers\Kuesioner_p.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+#8 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+#9 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\D...')
+#12 {main}
+CRITICAL - 2025-03-08 15:11:45 --> Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kuesioner_user`
+WHERE `user_id` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Kuesioner_p.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\Documents\\KULIAH\\PKL\\apk_bps\\public\\index.php')
+INFO - 2025-03-08 15:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-08 15:11:47 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\app\Controllers\Kuesioner_p.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+#8 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+#9 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\D...')
+#12 {main}
+CRITICAL - 2025-03-08 15:11:47 --> Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kuesioner_user`
+WHERE `user_id` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Kuesioner_p.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\Documents\\KULIAH\\PKL\\apk_bps\\public\\index.php')
+INFO - 2025-03-08 15:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-08 15:13:23 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\app\Controllers\Kuesioner_p.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+#8 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+#9 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\D...')
+#12 {main}
+CRITICAL - 2025-03-08 15:13:23 --> Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kuesioner_user`
+WHERE `user_id` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Kuesioner_p.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\Documents\\KULIAH\\PKL\\apk_bps\\public\\index.php')
+INFO - 2025-03-08 15:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-08 15:13:25 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\app\Controllers\Kuesioner_p.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+#8 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+#9 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\D...')
+#12 {main}
+CRITICAL - 2025-03-08 15:13:25 --> Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kuesioner_user`
+WHERE `user_id` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Kuesioner_p.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\Documents\\KULIAH\\PKL\\apk_bps\\public\\index.php')
+INFO - 2025-03-08 15:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-08 15:16:57 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\app\Controllers\Kuesioner_p.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+#8 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+#9 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\D...')
+#12 {main}
+CRITICAL - 2025-03-08 15:16:57 --> Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kuesioner_user`
+WHERE `user_id` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Kuesioner_p.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\Documents\\KULIAH\\PKL\\apk_bps\\public\\index.php')
+INFO - 2025-03-08 15:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-08 15:17:27 --> Invalid file: "kuesioner_p.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kuesioner_p.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kuesioner_p', [], true)
+ 3 APPPATH\Controllers\Kuesioner_p.php(19): view('kuesioner_p', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\Documents\\KULIAH\\PKL\\apk_bps\\public\\index.php')
+INFO - 2025-03-08 15:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-08 15:18:26 --> Undefined variable $user
+in APPPATH\Views\template\sidebar_pengguna.php on line 91.
+ 1 APPPATH\Views\template\sidebar_pengguna.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\Users\\USER\\Documents\\KULIAH\\PKL\\apk_bps\\app\\Views\\template\\sidebar_pengguna.php', 91)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\USER\\Documents\\KULIAH\\PKL\\apk_bps\\app\\Views\\template\\sidebar_pengguna.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/sidebar_pengguna', [], true)
+ 5 APPPATH\Views\v_kuesioner_p.php(4): view('template/sidebar_pengguna')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\Users\\USER\\Documents\\KULIAH\\PKL\\apk_bps\\app\\Views\\v_kuesioner_p.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_kuesioner_p', [], true)
+ 9 APPPATH\Controllers\Kuesioner_p.php(19): view('v_kuesioner_p', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\Documents\\KULIAH\\PKL\\apk_bps\\public\\index.php')
+INFO - 2025-03-08 15:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-08 15:19:29 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\app\Controllers\Kuesioner_p.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+#8 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+#9 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\D...')
+#12 {main}
+CRITICAL - 2025-03-08 15:19:29 --> Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kuesioner_user`
+WHERE `user_id` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Kuesioner_p.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\Documents\\KULIAH\\PKL\\apk_bps\\public\\index.php')
+INFO - 2025-03-08 15:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-08 15:19:40 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\app\Controllers\Kuesioner_p.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+#8 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+#9 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\USER\Documents\KULIAH\PKL\apk_bps\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\D...')
+#12 {main}
+CRITICAL - 2025-03-08 15:19:40 --> Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kuesioner_user`
+WHERE `user_id` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Kuesioner_p.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\Documents\\KULIAH\\PKL\\apk_bps\\public\\index.php')
+INFO - 2025-03-08 15:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-08 15:20:43 --> Class "App\Controllers\M_Profil" not found
+in APPPATH\Controllers\Kuesioner_p.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kuesioner_p->tampilKuesionerPengguna()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner_p))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\USER\\Documents\\KULIAH\\PKL\\apk_bps\\public\\index.php')
+INFO - 2025-03-08 15:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:39:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 15:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

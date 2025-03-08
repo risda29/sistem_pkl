@@ -1,0 +1,442 @@
+INFO - 2025-01-15 02:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-15 02:28:08 --> mysqli_sql_exception: Table 'bpstala.status_baca' doesn't exist in C:\xampp\htdocs\bps\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\bps\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\bps\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\bps\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\bps\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\bps\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\bps\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\bps\app\Models\StatusBacaModel.php(36): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\bps\app\Controllers\Story.php(268): App\Models\StatusBacaModel->updateStatusBaca(Array)
+#8 C:\xampp\htdocs\bps\system\CodeIgniter.php(919): App\Controllers\Story->selesaiBaca('26')
+#9 C:\xampp\htdocs\bps\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Story))
+#10 C:\xampp\htdocs\bps\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\bps\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\bps\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-01-15 02:28:08 --> Table 'bpstala.status_baca' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `status_baca`
+WHERE `id_user` = :id_user:
+AND `id_story` = :id_story:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\StatusBacaModel.php(36): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Story.php(268): App\Models\StatusBacaModel->updateStatusBaca([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Story->selesaiBaca('26')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Story))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-01-15 02:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-15 02:28:28 --> mysqli_sql_exception: Table 'bpstala.status_baca' doesn't exist in C:\xampp\htdocs\bps\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\bps\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\bps\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\bps\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\bps\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\bps\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\bps\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\bps\app\Models\StatusBacaModel.php(60): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\bps\app\Controllers\Kelas_pengguna.php(37): App\Models\StatusBacaModel->updateStatusBacaKelas(Array)
+#8 C:\xampp\htdocs\bps\system\CodeIgniter.php(919): App\Controllers\Kelas_pengguna->selesaiBaca('65')
+#9 C:\xampp\htdocs\bps\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas_pengguna))
+#10 C:\xampp\htdocs\bps\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\bps\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\bps\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-01-15 02:28:28 --> Table 'bpstala.status_baca' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `status_baca`
+WHERE `id_user` = :id_user:
+AND `id_kelas` = :id_kelas:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\StatusBacaModel.php(60): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Kelas_pengguna.php(37): App\Models\StatusBacaModel->updateStatusBacaKelas([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kelas_pengguna->selesaiBaca('65')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas_pengguna))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-01-15 02:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-15 02:29:45 --> mysqli_sql_exception: Table 'bpstala.status_baca' doesn't exist in C:\xampp\htdocs\bps\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\bps\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `user`.`...', 0)
+#1 C:\xampp\htdocs\bps\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user`.`...')
+#2 C:\xampp\htdocs\bps\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user`.`...')
+#3 C:\xampp\htdocs\bps\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `user`.`...', Array, false)
+#4 C:\xampp\htdocs\bps\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\bps\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\bps\app\Models\StatusBacaModel.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\bps\app\Controllers\KelolaUser.php(37): App\Models\StatusBacaModel->getStatusBaca()
+#8 C:\xampp\htdocs\bps\system\CodeIgniter.php(919): App\Controllers\KelolaUser->index()
+#9 C:\xampp\htdocs\bps\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelolaUser))
+#10 C:\xampp\htdocs\bps\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\bps\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\bps\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-01-15 02:29:45 --> Table 'bpstala.status_baca' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `user`.`username`, `user`.`email`, `user`.`leveluser`, `kelas`.`judul` AS `judul_kelas`, `story`.`judul` AS `judul_story`, `status_baca`.`status`, `status_baca`.`waktu_baca`
+FROM `status_baca`
+LEFT JOIN `user` ON `user`.`id_user` = `status_baca`.`id_user`
+LEFT JOIN `kelas` ON `kelas`.`id_kelas` = `status_baca`.`id_kelas`
+LEFT JOIN `story` ON `story`.`id_story` = `status_baca`.`id_story`
+ORDER BY `status_baca`.`waktu_baca` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\StatusBacaModel.php(23): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\KelolaUser.php(37): App\Models\StatusBacaModel->getStatusBaca()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\KelolaUser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelolaUser))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-01-15 02:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-15 02:30:25 --> mysqli_sql_exception: Table 'bpstala.status_baca' doesn't exist in C:\xampp\htdocs\bps\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\bps\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `user`.`...', 0)
+#1 C:\xampp\htdocs\bps\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user`.`...')
+#2 C:\xampp\htdocs\bps\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user`.`...')
+#3 C:\xampp\htdocs\bps\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `user`.`...', Array, false)
+#4 C:\xampp\htdocs\bps\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\bps\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\bps\app\Models\StatusBacaModel.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\bps\app\Controllers\KelolaUser.php(37): App\Models\StatusBacaModel->getStatusBaca()
+#8 C:\xampp\htdocs\bps\system\CodeIgniter.php(919): App\Controllers\KelolaUser->index()
+#9 C:\xampp\htdocs\bps\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelolaUser))
+#10 C:\xampp\htdocs\bps\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\bps\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\bps\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-01-15 02:30:25 --> Table 'bpstala.status_baca' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `user`.`username`, `user`.`email`, `user`.`leveluser`, `kelas`.`judul` AS `judul_kelas`, `story`.`judul` AS `judul_story`, `status_baca`.`status`, `status_baca`.`waktu_baca`
+FROM `status_baca`
+LEFT JOIN `user` ON `user`.`id_user` = `status_baca`.`id_user`
+LEFT JOIN `kelas` ON `kelas`.`id_kelas` = `status_baca`.`id_kelas`
+LEFT JOIN `story` ON `story`.`id_story` = `status_baca`.`id_story`
+ORDER BY `status_baca`.`waktu_baca` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\StatusBacaModel.php(23): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\KelolaUser.php(37): App\Models\StatusBacaModel->getStatusBaca()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\KelolaUser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelolaUser))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-01-15 02:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-15 02:31:30 --> mysqli_sql_exception: Table 'bpstala.status_baca' doesn't exist in C:\xampp\htdocs\bps\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\bps\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `user`.`...', 0)
+#1 C:\xampp\htdocs\bps\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user`.`...')
+#2 C:\xampp\htdocs\bps\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user`.`...')
+#3 C:\xampp\htdocs\bps\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `user`.`...', Array, false)
+#4 C:\xampp\htdocs\bps\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\bps\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\bps\app\Models\StatusBacaModel.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\bps\app\Controllers\KelolaUser.php(37): App\Models\StatusBacaModel->getStatusBaca()
+#8 C:\xampp\htdocs\bps\system\CodeIgniter.php(919): App\Controllers\KelolaUser->index()
+#9 C:\xampp\htdocs\bps\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelolaUser))
+#10 C:\xampp\htdocs\bps\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\bps\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\bps\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-01-15 02:31:30 --> Table 'bpstala.status_baca' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `user`.`username`, `user`.`email`, `user`.`leveluser`, `kelas`.`judul` AS `judul_kelas`, `story`.`judul` AS `judul_story`, `status_baca`.`status`, `status_baca`.`waktu_baca`
+FROM `status_baca`
+LEFT JOIN `user` ON `user`.`id_user` = `status_baca`.`id_user`
+LEFT JOIN `kelas` ON `kelas`.`id_kelas` = `status_baca`.`id_kelas`
+LEFT JOIN `story` ON `story`.`id_story` = `status_baca`.`id_story`
+ORDER BY `status_baca`.`waktu_baca` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\StatusBacaModel.php(23): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\KelolaUser.php(37): App\Models\StatusBacaModel->getStatusBaca()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\KelolaUser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelolaUser))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-01-15 02:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 02:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-15 02:31:37 --> mysqli_sql_exception: Table 'bpstala.status_baca' doesn't exist in C:\xampp\htdocs\bps\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\bps\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `user`.`...', 0)
+#1 C:\xampp\htdocs\bps\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user`.`...')
+#2 C:\xampp\htdocs\bps\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user`.`...')
+#3 C:\xampp\htdocs\bps\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `user`.`...', Array, false)
+#4 C:\xampp\htdocs\bps\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\bps\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\bps\app\Models\StatusBacaModel.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\bps\app\Controllers\KelolaUser.php(37): App\Models\StatusBacaModel->getStatusBaca()
+#8 C:\xampp\htdocs\bps\system\CodeIgniter.php(919): App\Controllers\KelolaUser->index()
+#9 C:\xampp\htdocs\bps\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelolaUser))
+#10 C:\xampp\htdocs\bps\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\bps\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\bps\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-01-15 02:31:37 --> Table 'bpstala.status_baca' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `user`.`username`, `user`.`email`, `user`.`leveluser`, `kelas`.`judul` AS `judul_kelas`, `story`.`judul` AS `judul_story`, `status_baca`.`status`, `status_baca`.`waktu_baca`
+FROM `status_baca`
+LEFT JOIN `user` ON `user`.`id_user` = `status_baca`.`id_user`
+LEFT JOIN `kelas` ON `kelas`.`id_kelas` = `status_baca`.`id_kelas`
+LEFT JOIN `story` ON `story`.`id_story` = `status_baca`.`id_story`
+ORDER BY `status_baca`.`waktu_baca` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\StatusBacaModel.php(23): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\KelolaUser.php(37): App\Models\StatusBacaModel->getStatusBaca()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\KelolaUser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelolaUser))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-01-15 02:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-15 02:32:15 --> mysqli_sql_exception: Table 'bpstala.status_baca' doesn't exist in C:\xampp\htdocs\bps\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\bps\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `user`.`...', 0)
+#1 C:\xampp\htdocs\bps\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user`.`...')
+#2 C:\xampp\htdocs\bps\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user`.`...')
+#3 C:\xampp\htdocs\bps\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `user`.`...', Array, false)
+#4 C:\xampp\htdocs\bps\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\bps\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\bps\app\Models\StatusBacaModel.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\bps\app\Controllers\KelolaUser.php(37): App\Models\StatusBacaModel->getStatusBaca()
+#8 C:\xampp\htdocs\bps\system\CodeIgniter.php(919): App\Controllers\KelolaUser->index()
+#9 C:\xampp\htdocs\bps\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelolaUser))
+#10 C:\xampp\htdocs\bps\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\bps\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\bps\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-01-15 02:32:15 --> Table 'bpstala.status_baca' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `user`.`username`, `user`.`email`, `user`.`leveluser`, `kelas`.`judul` AS `judul_kelas`, `story`.`judul` AS `judul_story`, `status_baca`.`status`, `status_baca`.`waktu_baca`
+FROM `status_baca`
+LEFT JOIN `user` ON `user`.`id_user` = `status_baca`.`id_user`
+LEFT JOIN `kelas` ON `kelas`.`id_kelas` = `status_baca`.`id_kelas`
+LEFT JOIN `story` ON `story`.`id_story` = `status_baca`.`id_story`
+ORDER BY `status_baca`.`waktu_baca` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\StatusBacaModel.php(23): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\KelolaUser.php(37): App\Models\StatusBacaModel->getStatusBaca()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\KelolaUser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelolaUser))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-01-15 04:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-15 04:36:11 --> mysqli_sql_exception: Table 'bpstala.status_baca' doesn't exist in C:\xampp\htdocs\bps\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\bps\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `user`.`...', 0)
+#1 C:\xampp\htdocs\bps\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user`.`...')
+#2 C:\xampp\htdocs\bps\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user`.`...')
+#3 C:\xampp\htdocs\bps\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `user`.`...', Array, false)
+#4 C:\xampp\htdocs\bps\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\bps\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\bps\app\Models\StatusBacaModel.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\bps\app\Controllers\KelolaUser.php(37): App\Models\StatusBacaModel->getStatusBaca()
+#8 C:\xampp\htdocs\bps\system\CodeIgniter.php(919): App\Controllers\KelolaUser->index()
+#9 C:\xampp\htdocs\bps\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelolaUser))
+#10 C:\xampp\htdocs\bps\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\bps\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\bps\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-01-15 04:36:11 --> Table 'bpstala.status_baca' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `user`.`username`, `user`.`email`, `user`.`leveluser`, `kelas`.`judul` AS `judul_kelas`, `story`.`judul` AS `judul_story`, `status_baca`.`status`, `status_baca`.`waktu_baca`
+FROM `status_baca`
+LEFT JOIN `user` ON `user`.`id_user` = `status_baca`.`id_user`
+LEFT JOIN `kelas` ON `kelas`.`id_kelas` = `status_baca`.`id_kelas`
+LEFT JOIN `story` ON `story`.`id_story` = `status_baca`.`id_story`
+ORDER BY `status_baca`.`waktu_baca` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\StatusBacaModel.php(23): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\KelolaUser.php(37): App\Models\StatusBacaModel->getStatusBaca()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\KelolaUser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelolaUser))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-01-15 04:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:41:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-15 04:41:05 --> mysqli_sql_exception: Table 'bpstala.status_baca' doesn't exist in C:\xampp\htdocs\bps\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\bps\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `user`.`...', 0)
+#1 C:\xampp\htdocs\bps\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user`.`...')
+#2 C:\xampp\htdocs\bps\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user`.`...')
+#3 C:\xampp\htdocs\bps\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `user`.`...', Array, false)
+#4 C:\xampp\htdocs\bps\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\bps\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\bps\app\Models\StatusBacaModel.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\bps\app\Controllers\KelolaUser.php(37): App\Models\StatusBacaModel->getStatusBaca()
+#8 C:\xampp\htdocs\bps\system\CodeIgniter.php(919): App\Controllers\KelolaUser->index()
+#9 C:\xampp\htdocs\bps\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelolaUser))
+#10 C:\xampp\htdocs\bps\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\bps\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\bps\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-01-15 04:41:05 --> Table 'bpstala.status_baca' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `user`.`username`, `user`.`email`, `user`.`leveluser`, `kelas`.`judul` AS `judul_kelas`, `story`.`judul` AS `judul_story`, `status_baca`.`status`, `status_baca`.`waktu_baca`
+FROM `status_baca`
+LEFT JOIN `user` ON `user`.`id_user` = `status_baca`.`id_user`
+LEFT JOIN `kelas` ON `kelas`.`id_kelas` = `status_baca`.`id_kelas`
+LEFT JOIN `story` ON `story`.`id_story` = `status_baca`.`id_story`
+ORDER BY `status_baca`.`waktu_baca` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\StatusBacaModel.php(23): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\KelolaUser.php(37): App\Models\StatusBacaModel->getStatusBaca()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\KelolaUser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelolaUser))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bps\\public\\index.php')
+INFO - 2025-01-15 04:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:41:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:50:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 04:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 05:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 05:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 05:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 05:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 05:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 05:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 05:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 05:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 05:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 05:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 05:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 05:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 05:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 05:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 05:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 05:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 05:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-15 05:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

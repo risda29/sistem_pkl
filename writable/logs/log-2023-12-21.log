@@ -1,0 +1,475 @@
+INFO - 2023-12-21 00:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 00:10:18 --> Undefined variable $value
+in APPPATH\Views\v_halaman_struktur.php on line 15.
+ 1 APPPATH\Views\v_halaman_struktur.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_halaman_struktur', [], true)
+ 5 APPPATH\Views\v_front_end.php(90): view('v_halaman_struktur')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_front_end.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_front_end', [], true)
+ 9 APPPATH\Controllers\StrukturOrganisasi.php(44): view('v_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StrukturOrganisasi->tampilgambarstruktur()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StrukturOrganisasi))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webdesa\\public\\index.php')
+CRITICAL - 2023-12-21 00:11:56 --> Undefined array key "pdf"
+in APPPATH\Views\v_halaman_struktur.php on line 15.
+ 1 APPPATH\Views\v_halaman_struktur.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pdf"', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_halaman_struktur', [], true)
+ 5 APPPATH\Views\v_front_end.php(90): view('v_halaman_struktur')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_front_end.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_front_end', [], true)
+ 9 APPPATH\Controllers\StrukturOrganisasi.php(44): view('v_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StrukturOrganisasi->tampilgambarstruktur()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StrukturOrganisasi))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webdesa\\public\\index.php')
+CRITICAL - 2023-12-21 00:11:58 --> Undefined array key "pdf"
+in APPPATH\Views\v_halaman_struktur.php on line 15.
+ 1 APPPATH\Views\v_halaman_struktur.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pdf"', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_halaman_struktur', [], true)
+ 5 APPPATH\Views\v_front_end.php(90): view('v_halaman_struktur')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_front_end.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_front_end', [], true)
+ 9 APPPATH\Controllers\StrukturOrganisasi.php(44): view('v_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StrukturOrganisasi->tampilgambarstruktur()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StrukturOrganisasi))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webdesa\\public\\index.php')
+CRITICAL - 2023-12-21 00:12:40 --> Undefined array key "struktur"
+in APPPATH\Views\v_halaman_struktur.php on line 15.
+ 1 APPPATH\Views\v_halaman_struktur.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "struktur"', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_halaman_struktur', [], true)
+ 5 APPPATH\Views\v_front_end.php(90): view('v_halaman_struktur')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_front_end.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_front_end', [], true)
+ 9 APPPATH\Controllers\StrukturOrganisasi.php(44): view('v_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StrukturOrganisasi->tampilgambarstruktur()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StrukturOrganisasi))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webdesa\\public\\index.php')
+CRITICAL - 2023-12-21 00:12:42 --> Undefined array key "struktur"
+in APPPATH\Views\v_halaman_struktur.php on line 15.
+ 1 APPPATH\Views\v_halaman_struktur.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "struktur"', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_halaman_struktur', [], true)
+ 5 APPPATH\Views\v_front_end.php(90): view('v_halaman_struktur')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_front_end.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_front_end', [], true)
+ 9 APPPATH\Controllers\StrukturOrganisasi.php(44): view('v_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StrukturOrganisasi->tampilgambarstruktur()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StrukturOrganisasi))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webdesa\\public\\index.php')
+CRITICAL - 2023-12-21 00:12:43 --> Undefined array key "struktur"
+in APPPATH\Views\v_halaman_struktur.php on line 15.
+ 1 APPPATH\Views\v_halaman_struktur.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "struktur"', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_halaman_struktur', [], true)
+ 5 APPPATH\Views\v_front_end.php(90): view('v_halaman_struktur')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_front_end.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_front_end', [], true)
+ 9 APPPATH\Controllers\StrukturOrganisasi.php(44): view('v_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StrukturOrganisasi->tampilgambarstruktur()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StrukturOrganisasi))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webdesa\\public\\index.php')
+CRITICAL - 2023-12-21 00:14:27 --> Undefined variable $data
+in APPPATH\Views\v_halaman_struktur.php on line 15.
+ 1 APPPATH\Views\v_halaman_struktur.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_halaman_struktur', [], true)
+ 5 APPPATH\Views\v_front_end.php(90): view('v_halaman_struktur')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_front_end.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_front_end', [], true)
+ 9 APPPATH\Controllers\StrukturOrganisasi.php(44): view('v_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StrukturOrganisasi->tampilgambarstruktur()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StrukturOrganisasi))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webdesa\\public\\index.php')
+CRITICAL - 2023-12-21 00:14:29 --> Undefined variable $data
+in APPPATH\Views\v_halaman_struktur.php on line 15.
+ 1 APPPATH\Views\v_halaman_struktur.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_halaman_struktur', [], true)
+ 5 APPPATH\Views\v_front_end.php(90): view('v_halaman_struktur')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_front_end.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_front_end', [], true)
+ 9 APPPATH\Controllers\StrukturOrganisasi.php(44): view('v_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StrukturOrganisasi->tampilgambarstruktur()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StrukturOrganisasi))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webdesa\\public\\index.php')
+CRITICAL - 2023-12-21 00:15:35 --> Undefined array key "struktur"
+in APPPATH\Views\v_halaman_struktur.php on line 15.
+ 1 APPPATH\Views\v_halaman_struktur.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "struktur"', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_halaman_struktur', [], true)
+ 5 APPPATH\Views\v_front_end.php(90): view('v_halaman_struktur')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_front_end.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_front_end', [], true)
+ 9 APPPATH\Controllers\StrukturOrganisasi.php(44): view('v_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StrukturOrganisasi->tampilgambarstruktur()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StrukturOrganisasi))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webdesa\\public\\index.php')
+CRITICAL - 2023-12-21 00:15:46 --> Undefined array key "pdf"
+in APPPATH\Views\v_halaman_struktur.php on line 15.
+ 1 APPPATH\Views\v_halaman_struktur.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pdf"', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_halaman_struktur', [], true)
+ 5 APPPATH\Views\v_front_end.php(90): view('v_halaman_struktur')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_front_end.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_front_end', [], true)
+ 9 APPPATH\Controllers\StrukturOrganisasi.php(44): view('v_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StrukturOrganisasi->tampilgambarstruktur()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StrukturOrganisasi))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webdesa\\public\\index.php')
+CRITICAL - 2023-12-21 00:20:35 --> Undefined array key "pdf"
+in APPPATH\Views\v_halaman_struktur.php on line 15.
+ 1 APPPATH\Views\v_halaman_struktur.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pdf"', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_halaman_struktur', [], true)
+ 5 APPPATH\Views\v_front_end.php(84): view('v_halaman_struktur')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_front_end.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_front_end', [], true)
+ 9 APPPATH\Controllers\StrukturOrganisasi.php(44): view('v_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StrukturOrganisasi->tampilgambarstruktur()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StrukturOrganisasi))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webdesa\\public\\index.php')
+CRITICAL - 2023-12-21 00:22:08 --> Undefined variable $kebijakan
+in APPPATH\Views\v_front_end.php on line 65.
+ 1 APPPATH\Views\v_front_end.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kebijakan', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_front_end.php', 65)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_front_end.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_front_end', [], true)
+ 5 APPPATH\Controllers\StrukturOrganisasi.php(29): view('v_front_end', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StrukturOrganisasi->tampilgambarstruktur()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StrukturOrganisasi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webdesa\\public\\index.php')
+CRITICAL - 2023-12-21 00:22:11 --> Undefined variable $kebijakan
+in APPPATH\Views\v_front_end.php on line 65.
+ 1 APPPATH\Views\v_front_end.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kebijakan', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_front_end.php', 65)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_front_end.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_front_end', [], true)
+ 5 APPPATH\Controllers\StrukturOrganisasi.php(29): view('v_front_end', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StrukturOrganisasi->tampilgambarstruktur()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StrukturOrganisasi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webdesa\\public\\index.php')
+CRITICAL - 2023-12-21 00:22:55 --> Undefined variable $struktur
+in APPPATH\Views\v_halaman_struktur.php on line 15.
+ 1 APPPATH\Views\v_halaman_struktur.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $struktur', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_halaman_struktur', [], true)
+ 5 APPPATH\Views\v_front_end.php(84): view('v_halaman_struktur')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_front_end.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_front_end', [], true)
+ 9 APPPATH\Controllers\StrukturOrganisasi.php(41): view('v_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StrukturOrganisasi->tampilgambarstruktur()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StrukturOrganisasi))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webdesa\\public\\index.php')
+CRITICAL - 2023-12-21 00:22:59 --> Undefined variable $struktur
+in APPPATH\Views\v_halaman_struktur.php on line 15.
+ 1 APPPATH\Views\v_halaman_struktur.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $struktur', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_halaman_struktur', [], true)
+ 5 APPPATH\Views\v_front_end.php(84): view('v_halaman_struktur')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_front_end.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_front_end', [], true)
+ 9 APPPATH\Controllers\StrukturOrganisasi.php(41): view('v_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StrukturOrganisasi->tampilgambarstruktur()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StrukturOrganisasi))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webdesa\\public\\index.php')
+INFO - 2023-12-21 00:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 00:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 00:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 00:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 00:28:07 --> Undefined array key "pdf"
+in APPPATH\Views\v_halaman_struktur.php on line 15.
+ 1 APPPATH\Views\v_halaman_struktur.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pdf"', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_halaman_struktur', [], true)
+ 5 APPPATH\Views\v_front_end.php(84): view('v_halaman_struktur')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_front_end.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_front_end', [], true)
+ 9 APPPATH\Controllers\StrukturOrganisasi.php(44): view('v_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StrukturOrganisasi->tampilgambarstruktur()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StrukturOrganisasi))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webdesa\\public\\index.php')
+CRITICAL - 2023-12-21 03:13:32 --> Undefined array key "pdf"
+in APPPATH\Views\v_halaman_struktur.php on line 15.
+ 1 APPPATH\Views\v_halaman_struktur.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pdf"', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_halaman_struktur', [], true)
+ 5 APPPATH\Views\v_front_end.php(84): view('v_halaman_struktur')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_front_end.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_front_end', [], true)
+ 9 APPPATH\Controllers\StrukturOrganisasi.php(44): view('v_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StrukturOrganisasi->tampilgambarstruktur()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StrukturOrganisasi))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webdesa\\public\\index.php')
+CRITICAL - 2023-12-21 03:15:34 --> Undefined array key "pdf"
+in APPPATH\Views\v_halaman_struktur.php on line 15.
+ 1 APPPATH\Views\v_halaman_struktur.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pdf"', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_halaman_struktur', [], true)
+ 5 APPPATH\Views\v_front_end.php(84): view('v_halaman_struktur')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_front_end.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_front_end', [], true)
+ 9 APPPATH\Controllers\StrukturOrganisasi.php(44): view('v_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StrukturOrganisasi->tampilgambarstruktur()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StrukturOrganisasi))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webdesa\\public\\index.php')
+INFO - 2023-12-21 03:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:33:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 03:34:53 --> Undefined array key "pdf"
+in APPPATH\Views\v_halaman_struktur.php on line 15.
+ 1 APPPATH\Views\v_halaman_struktur.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pdf"', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_halaman_struktur', [], true)
+ 5 APPPATH\Views\v_front_end.php(84): view('v_halaman_struktur')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_front_end.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_front_end', [], true)
+ 9 APPPATH\Controllers\StrukturOrganisasi.php(44): view('v_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StrukturOrganisasi->tampilgambarstruktur()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StrukturOrganisasi))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webdesa\\public\\index.php')
+CRITICAL - 2023-12-21 03:35:39 --> Undefined variable $item
+in APPPATH\Views\v_halaman_struktur.php on line 15.
+ 1 APPPATH\Views\v_halaman_struktur.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_halaman_struktur', [], true)
+ 5 APPPATH\Views\v_front_end.php(84): view('v_halaman_struktur')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_front_end.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_front_end', [], true)
+ 9 APPPATH\Controllers\StrukturOrganisasi.php(44): view('v_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StrukturOrganisasi->tampilgambarstruktur()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StrukturOrganisasi))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webdesa\\public\\index.php')
+INFO - 2023-12-21 03:41:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:42:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:42:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:46:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:50:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 04:12:36 --> Undefined array key "id_struktur"
+in APPPATH\Views\v_struktur_organisasi.php on line 48.
+ 1 APPPATH\Views\v_struktur_organisasi.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_struktur"', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_struktur_organisasi.php', 48)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_struktur_organisasi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_struktur_organisasi', [], true)
+ 5 APPPATH\Controllers\StrukturOrganisasi.php(21): view('v_struktur_organisasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StrukturOrganisasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StrukturOrganisasi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webdesa\\public\\index.php')
+INFO - 2023-12-21 04:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 04:16:09 --> Undefined array key "id_struktur"
+in APPPATH\Views\v_struktur_organisasi.php on line 49.
+ 1 APPPATH\Views\v_struktur_organisasi.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_struktur"', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_struktur_organisasi.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_struktur_organisasi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_struktur_organisasi', [], true)
+ 5 APPPATH\Controllers\StrukturOrganisasi.php(21): view('v_struktur_organisasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StrukturOrganisasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StrukturOrganisasi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webdesa\\public\\index.php')
+INFO - 2023-12-21 04:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 04:21:46 --> Call to a member function getName() on null
+in APPPATH\Controllers\StrukturOrganisasi.php on line 117.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StrukturOrganisasi->update_struktur('1')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StrukturOrganisasi))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webdesa\\public\\index.php')
+INFO - 2023-12-21 04:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 04:37:01 --> Undefined array key "idvisimisi"
+in APPPATH\Models\M_Struktur.php on line 39.
+ 1 APPPATH\Models\M_Struktur.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idvisimisi"', 'C:\\xampp\\htdocs\\webdesa\\app\\Models\\M_Struktur.php', 39)
+ 2 APPPATH\Controllers\StrukturOrganisasi.php(133): App\Models\M_Struktur->update_struktur([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StrukturOrganisasi->update_struktur('1')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StrukturOrganisasi))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webdesa\\public\\index.php')
+CRITICAL - 2023-12-21 04:37:43 --> Undefined array key "idvisimisi"
+in APPPATH\Models\M_Struktur.php on line 39.
+ 1 APPPATH\Models\M_Struktur.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idvisimisi"', 'C:\\xampp\\htdocs\\webdesa\\app\\Models\\M_Struktur.php', 39)
+ 2 APPPATH\Controllers\StrukturOrganisasi.php(133): App\Models\M_Struktur->update_struktur([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StrukturOrganisasi->update_struktur('1')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StrukturOrganisasi))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webdesa\\public\\index.php')
+INFO - 2023-12-21 04:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:57:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 04:58:48 --> Undefined array key "judul"
+in APPPATH\Views\v_struktur_organisasi.php on line 30.
+ 1 APPPATH\Views\v_struktur_organisasi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "judul"', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_struktur_organisasi.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_struktur_organisasi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_struktur_organisasi', [], true)
+ 5 APPPATH\Controllers\StrukturOrganisasi.php(21): view('v_struktur_organisasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StrukturOrganisasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StrukturOrganisasi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webdesa\\public\\index.php')
+INFO - 2023-12-21 04:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 05:05:17 --> Undefined variable $item
+in APPPATH\Views\v_halaman_struktur.php on line 15.
+ 1 APPPATH\Views\v_halaman_struktur.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_halaman_struktur.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_halaman_struktur', [], true)
+ 5 APPPATH\Views\v_front_end.php(84): view('v_halaman_struktur')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_front_end.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_front_end', [], true)
+ 9 APPPATH\Controllers\StrukturOrganisasi.php(44): view('v_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StrukturOrganisasi->tampilgambarstruktur()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StrukturOrganisasi))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webdesa\\public\\index.php')
+INFO - 2023-12-21 06:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 06:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 06:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 06:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 06:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 06:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 06:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 06:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 06:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 06:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 06:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 06:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 06:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 06:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 06:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 06:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 06:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 06:19:58 --> Cannot access offset of type string on string
+in APPPATH\Views\v_data_kebijakan.php on line 200.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_data_kebijakan', [], true)
+ 4 APPPATH\Controllers\Kebijakan.php(18): view('v_data_kebijakan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kebijakan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kebijakan))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webdesa\\public\\index.php')
+INFO - 2023-12-21 06:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 06:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 06:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

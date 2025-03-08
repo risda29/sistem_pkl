@@ -1,0 +1,98 @@
+INFO - 2023-11-08 02:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 02:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 06:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 06:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 06:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 06:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 06:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 07:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 07:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 07:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 07:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 07:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 07:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 07:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 07:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 07:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 13:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 13:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 14:02:27 --> Too few arguments to function App\Controllers\Berita::edit_berita(), 0 passed in C:\xampp\htdocs\webdesa\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Berita.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->edit_berita()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 14:11:16 --> Too few arguments to function App\Controllers\Berita::edit_berita(), 0 passed in C:\xampp\htdocs\webdesa\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Berita.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->edit_berita()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 14:11:38 --> Too few arguments to function App\Controllers\Berita::edit_berita(), 0 passed in C:\xampp\htdocs\webdesa\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Berita.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->edit_berita()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 14:15:08 --> Unmatched '}'
+in APPPATH\Models\M_Berita.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webdesa\\app\\Models\\M_Berita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_Berita')
+ 3 APPPATH\Controllers\Berita.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_Berita')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 14:15:11 --> Unmatched '}'
+in APPPATH\Models\M_Berita.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webdesa\\app\\Models\\M_Berita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_Berita')
+ 3 APPPATH\Controllers\Berita.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_Berita')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 14:15:30 --> Too few arguments to function App\Controllers\Berita::edit_berita(), 0 passed in C:\xampp\htdocs\webdesa\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Berita.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->edit_berita()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 14:24:01 --> Too few arguments to function App\Controllers\Berita::edit_berita(), 0 passed in C:\xampp\htdocs\webdesa\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Berita.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->edit_berita()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 14:29:34 --> Too few arguments to function App\Controllers\Berita::edit_berita(), 0 passed in C:\xampp\htdocs\webdesa\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Berita.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->edit_berita()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 14:29:38 --> Undefined variable $daftar_berita
+in APPPATH\Views\v_data_berita.php on line 262.
+ 1 APPPATH\Views\v_data_berita.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $daftar_berita', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_data_berita.php', 262)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_data_berita.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_data_berita', [], true)
+ 5 APPPATH\Controllers\Berita.php(16): view('v_data_berita', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 14:30:15 --> Too few arguments to function App\Controllers\Berita::edit_berita(), 0 passed in C:\xampp\htdocs\webdesa\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Berita.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->edit_berita()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 14:36:39 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\v_data_berita.php on line 361.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_data_berita', [], true)
+ 3 APPPATH\Controllers\Berita.php(16): view('v_data_berita', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,21 @@
+CRITICAL - 2023-09-29 01:54:02 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\Login.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-29 01:55:57 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\Login.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-29 01:57:18 --> Allowed memory size of 1048576000 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\Login.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-29 01:57:24 --> Allowed memory size of 1048576000 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\Login.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-29 01:57:29 --> Allowed memory size of 1048576000 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\Login.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-29 03:04:23 --> Allowed memory size of 1048576000 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\Login.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-29 03:05:37 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\Login.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

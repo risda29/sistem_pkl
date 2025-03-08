@@ -1,0 +1,371 @@
+INFO - 2023-11-09 13:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-09 13:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-09 13:41:41 --> Too few arguments to function App\Controllers\Berita::edit_berita(), 0 passed in C:\xampp\htdocs\webdesa\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Berita.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->edit_berita()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 13:46:06 --> Too few arguments to function App\Controllers\Berita::edit_berita(), 0 passed in C:\xampp\htdocs\webdesa\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Berita.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->edit_berita()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 13:46:43 --> Too few arguments to function App\Controllers\Berita::edit_berita(), 0 passed in C:\xampp\htdocs\webdesa\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Berita.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->edit_berita()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 13:49:44 --> Too few arguments to function App\Controllers\Berita::edit_berita(), 0 passed in C:\xampp\htdocs\webdesa\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Berita.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->edit_berita()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 13:51:01 --> Too few arguments to function App\Controllers\Berita::edit_berita(), 0 passed in C:\xampp\htdocs\webdesa\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Berita.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->edit_berita()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 13:52:54 --> Too few arguments to function App\Controllers\Berita::edit_berita(), 0 passed in C:\xampp\htdocs\webdesa\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Berita.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->edit_berita()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 13:53:06 --> Too few arguments to function App\Controllers\Berita::update_berita(), 0 passed in C:\xampp\htdocs\webdesa\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Berita.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->update_berita()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 13:55:15 --> Too few arguments to function App\Controllers\Berita::update_berita(), 0 passed in C:\xampp\htdocs\webdesa\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Berita.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->update_berita()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 13:58:35 --> Too few arguments to function App\Controllers\Berita::edit_berita(), 0 passed in C:\xampp\htdocs\webdesa\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Berita.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->edit_berita()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 14:06:31 --> Too few arguments to function App\Controllers\Berita::edit_berita(), 0 passed in C:\xampp\htdocs\webdesa\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Berita.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->edit_berita()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 14:08:53 --> Undefined array key "id"
+in APPPATH\Views\v_data_berita.php on line 272.
+ 1 APPPATH\Views\v_data_berita.php(272): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_data_berita.php', 272)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_data_berita.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_data_berita', [], true)
+ 5 APPPATH\Controllers\Berita.php(16): view('v_data_berita', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 14:09:12 --> Undefined array key "id_berita"
+in APPPATH\Views\v_data_berita.php on line 272.
+ 1 APPPATH\Views\v_data_berita.php(272): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_berita"', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_data_berita.php', 272)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_data_berita.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_data_berita', [], true)
+ 5 APPPATH\Controllers\Berita.php(16): view('v_data_berita', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 14:09:59 --> Undefined array key "id_berita"
+in APPPATH\Views\v_data_berita.php on line 272.
+ 1 APPPATH\Views\v_data_berita.php(272): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_berita"', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_data_berita.php', 272)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_data_berita.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_data_berita', [], true)
+ 5 APPPATH\Controllers\Berita.php(16): view('v_data_berita', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 14:10:00 --> Undefined array key "id_berita"
+in APPPATH\Views\v_data_berita.php on line 272.
+ 1 APPPATH\Views\v_data_berita.php(272): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_berita"', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_data_berita.php', 272)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_data_berita.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_data_berita', [], true)
+ 5 APPPATH\Controllers\Berita.php(16): view('v_data_berita', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 14:10:01 --> Undefined array key "id_berita"
+in APPPATH\Views\v_data_berita.php on line 272.
+ 1 APPPATH\Views\v_data_berita.php(272): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_berita"', 'C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_data_berita.php', 272)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\webdesa\\app\\Views\\v_data_berita.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_data_berita', [], true)
+ 5 APPPATH\Controllers\Berita.php(16): view('v_data_berita', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 14:11:49 --> Too few arguments to function App\Controllers\Berita::edit_berita(), 0 passed in C:\xampp\htdocs\webdesa\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Berita.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->edit_berita()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 14:18:59 --> Too few arguments to function App\Controllers\Berita::edit_berita(), 0 passed in C:\xampp\htdocs\webdesa\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Berita.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->edit_berita()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 14:29:16 --> Too few arguments to function App\Controllers\Berita::edit_berita(), 0 passed in C:\xampp\htdocs\webdesa\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Berita.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->edit_berita()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 14:29:29 --> Too few arguments to function App\Controllers\Berita::edit_berita(), 0 passed in C:\xampp\htdocs\webdesa\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Berita.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->edit_berita()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 14:41:43 --> Too few arguments to function App\Controllers\Berita::edit_berita(), 0 passed in C:\xampp\htdocs\webdesa\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Berita.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->edit_berita()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 14:42:08 --> mysqli_sql_exception: Unknown column 'berita.id' in 'where clause' in C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\webdesa\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\webdesa\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\webdesa\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '10')
+#6 C:\xampp\htdocs\webdesa\app\Models\M_Berita.php(45): CodeIgniter\BaseModel->find('10')
+#7 C:\xampp\htdocs\webdesa\app\Controllers\Berita.php(56): App\Models\M_Berita->proses_edit_berita('10')
+#8 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(919): App\Controllers\Berita->edit_berita('10')
+#9 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#10 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-09 14:42:08 --> Unknown column 'berita.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `berita`
+WHERE `berita`.`id` = :berita.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '10')
+ 4 APPPATH\Models\M_Berita.php(45): CodeIgniter\BaseModel->find('10')
+ 5 APPPATH\Controllers\Berita.php(56): App\Models\M_Berita->proses_edit_berita('10')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->edit_berita('10')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 14:43:32 --> mysqli_sql_exception: Unknown column 'berita.id' in 'where clause' in C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\webdesa\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\webdesa\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\webdesa\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '10')
+#6 C:\xampp\htdocs\webdesa\app\Models\M_Berita.php(45): CodeIgniter\BaseModel->find('10')
+#7 C:\xampp\htdocs\webdesa\app\Controllers\Berita.php(56): App\Models\M_Berita->proses_edit_berita('10')
+#8 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(919): App\Controllers\Berita->edit_berita('10')
+#9 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#10 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-09 14:43:32 --> Unknown column 'berita.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `berita`
+WHERE `berita`.`id` = :berita.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '10')
+ 4 APPPATH\Models\M_Berita.php(45): CodeIgniter\BaseModel->find('10')
+ 5 APPPATH\Controllers\Berita.php(56): App\Models\M_Berita->proses_edit_berita('10')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->edit_berita('10')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 14:56:53 --> mysqli_sql_exception: Unknown column 'berita.id' in 'where clause' in C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\webdesa\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\webdesa\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\webdesa\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '10')
+#6 C:\xampp\htdocs\webdesa\app\Models\M_Berita.php(45): CodeIgniter\BaseModel->find('10')
+#7 C:\xampp\htdocs\webdesa\app\Controllers\Berita.php(56): App\Models\M_Berita->proses_edit_berita('10')
+#8 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(919): App\Controllers\Berita->edit_berita('10')
+#9 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#10 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-09 14:56:53 --> Unknown column 'berita.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `berita`
+WHERE `berita`.`id` = :berita.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '10')
+ 4 APPPATH\Models\M_Berita.php(45): CodeIgniter\BaseModel->find('10')
+ 5 APPPATH\Controllers\Berita.php(56): App\Models\M_Berita->proses_edit_berita('10')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->edit_berita('10')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 14:57:04 --> mysqli_sql_exception: Unknown column 'berita.id' in 'where clause' in C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\webdesa\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\webdesa\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\webdesa\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '10')
+#6 C:\xampp\htdocs\webdesa\app\Models\M_Berita.php(45): CodeIgniter\BaseModel->find('10')
+#7 C:\xampp\htdocs\webdesa\app\Controllers\Berita.php(56): App\Models\M_Berita->proses_edit_berita('10')
+#8 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(919): App\Controllers\Berita->edit_berita('10')
+#9 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#10 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-09 14:57:04 --> Unknown column 'berita.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `berita`
+WHERE `berita`.`id` = :berita.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '10')
+ 4 APPPATH\Models\M_Berita.php(45): CodeIgniter\BaseModel->find('10')
+ 5 APPPATH\Controllers\Berita.php(56): App\Models\M_Berita->proses_edit_berita('10')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->edit_berita('10')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 14:58:06 --> mysqli_sql_exception: Unknown column 'berita.id' in 'where clause' in C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\webdesa\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\webdesa\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\webdesa\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '10')
+#6 C:\xampp\htdocs\webdesa\app\Models\M_Berita.php(45): CodeIgniter\BaseModel->find('10')
+#7 C:\xampp\htdocs\webdesa\app\Controllers\Berita.php(56): App\Models\M_Berita->proses_edit_berita('10')
+#8 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(919): App\Controllers\Berita->edit_berita('10')
+#9 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#10 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-09 14:58:06 --> Unknown column 'berita.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `berita`
+WHERE `berita`.`id` = :berita.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '10')
+ 4 APPPATH\Models\M_Berita.php(45): CodeIgniter\BaseModel->find('10')
+ 5 APPPATH\Controllers\Berita.php(56): App\Models\M_Berita->proses_edit_berita('10')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->edit_berita('10')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 14:58:36 --> mysqli_sql_exception: Unknown column 'berita.id' in 'where clause' in C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\webdesa\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\webdesa\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\webdesa\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '11')
+#6 C:\xampp\htdocs\webdesa\app\Models\M_Berita.php(45): CodeIgniter\BaseModel->find('11')
+#7 C:\xampp\htdocs\webdesa\app\Controllers\Berita.php(56): App\Models\M_Berita->proses_edit_berita('11')
+#8 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(919): App\Controllers\Berita->edit_berita('11')
+#9 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#10 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-09 14:58:36 --> Unknown column 'berita.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `berita`
+WHERE `berita`.`id` = :berita.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '11')
+ 4 APPPATH\Models\M_Berita.php(45): CodeIgniter\BaseModel->find('11')
+ 5 APPPATH\Controllers\Berita.php(56): App\Models\M_Berita->proses_edit_berita('11')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->edit_berita('11')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 15:02:37 --> mysqli_sql_exception: Unknown column 'berita.id' in 'where clause' in C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\webdesa\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\webdesa\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\webdesa\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '11')
+#6 C:\xampp\htdocs\webdesa\app\Models\M_Berita.php(45): CodeIgniter\BaseModel->find('11')
+#7 C:\xampp\htdocs\webdesa\app\Controllers\Berita.php(56): App\Models\M_Berita->proses_edit_berita('11')
+#8 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(919): App\Controllers\Berita->edit_berita('11')
+#9 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#10 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-09 15:02:37 --> Unknown column 'berita.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `berita`
+WHERE `berita`.`id` = :berita.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '11')
+ 4 APPPATH\Models\M_Berita.php(45): CodeIgniter\BaseModel->find('11')
+ 5 APPPATH\Controllers\Berita.php(56): App\Models\M_Berita->proses_edit_berita('11')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->edit_berita('11')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 15:02:51 --> mysqli_sql_exception: Unknown column 'berita.id' in 'where clause' in C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\webdesa\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\webdesa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\webdesa\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\webdesa\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\webdesa\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '10')
+#6 C:\xampp\htdocs\webdesa\app\Models\M_Berita.php(45): CodeIgniter\BaseModel->find('10')
+#7 C:\xampp\htdocs\webdesa\app\Controllers\Berita.php(56): App\Models\M_Berita->proses_edit_berita('10')
+#8 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(919): App\Controllers\Berita->edit_berita('10')
+#9 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#10 C:\xampp\htdocs\webdesa\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\webdesa\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-09 15:02:51 --> Unknown column 'berita.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `berita`
+WHERE `berita`.`id` = :berita.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '10')
+ 4 APPPATH\Models\M_Berita.php(45): CodeIgniter\BaseModel->find('10')
+ 5 APPPATH\Controllers\Berita.php(56): App\Models\M_Berita->proses_edit_berita('10')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Berita->edit_berita('10')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
