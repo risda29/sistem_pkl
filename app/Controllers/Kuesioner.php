@@ -18,6 +18,12 @@ class Kuesioner extends BaseController
         $user = $M_User->find($id_user);
         $sudahMengisi = $M_Respon->sudahMengisi($id_user);
 
+        // Ambil data statistik dari database
+        $statistik = [];
+        foreach ($M_Respon->getJawabanStatistik() as $data) {
+            $statistik[$data['id_kuesioner']][$data['point']] = $data['jumlah'];
+        }
+
         if ($user['leveluser'] == 'Pengguna') {
             return view('v_kuesioner_p', [
                 'user' => $M_Profil->getDataProfil(1),
@@ -28,9 +34,11 @@ class Kuesioner extends BaseController
             return view('v_kuesioner', [
                 'user' => $M_Profil->getDataProfil(1),
                 'kuesioner' => $M_Kuesioner->findAll(),
+                'statistik' => $statistik, // Kirim data statistik ke view
             ]);
         }
     }
+
 
     public function tambah()
     {
