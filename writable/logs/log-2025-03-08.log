@@ -647,3 +647,208 @@ INFO - 2025-03-08 15:53:30 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2025-03-08 15:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-03-08 15:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-03-08 15:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-08 17:05:50 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'bpstala' in D:\Software\program\laragon\www\sistem_pkl\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\Software\program\laragon\www\sistem_pkl\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'bpstala', 3306, '', 0)
+#1 D:\Software\program\laragon\www\sistem_pkl\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Software\program\laragon\www\sistem_pkl\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Software\program\laragon\www\sistem_pkl\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Software\program\laragon\www\sistem_pkl\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Software\program\laragon\www\sistem_pkl\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Software\program\laragon\www\sistem_pkl\app\Models\M_Kelas.php(36): CodeIgniter\BaseModel->findAll()
+#7 D:\Software\program\laragon\www\sistem_pkl\app\Controllers\Home.php(20): App\Models\M_Kelas->getKelas()
+#8 D:\Software\program\laragon\www\sistem_pkl\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#9 D:\Software\program\laragon\www\sistem_pkl\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\Software\program\laragon\www\sistem_pkl\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Software\program\laragon\www\sistem_pkl\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\Software\program\laragon\www\sistem_pkl\system\Commands\Server\rewrite.php(47): require_once('D:\\Software\\pro...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'bpstala' in D:\Software\program\laragon\www\sistem_pkl\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\Software\program\laragon\www\sistem_pkl\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Software\program\laragon\www\sistem_pkl\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Software\program\laragon\www\sistem_pkl\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Software\program\laragon\www\sistem_pkl\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Software\program\laragon\www\sistem_pkl\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\Software\program\laragon\www\sistem_pkl\app\Models\M_Kelas.php(36): CodeIgniter\BaseModel->findAll()
+#6 D:\Software\program\laragon\www\sistem_pkl\app\Controllers\Home.php(20): App\Models\M_Kelas->getKelas()
+#7 D:\Software\program\laragon\www\sistem_pkl\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#8 D:\Software\program\laragon\www\sistem_pkl\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\Software\program\laragon\www\sistem_pkl\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Software\program\laragon\www\sistem_pkl\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\Software\program\laragon\www\sistem_pkl\system\Commands\Server\rewrite.php(47): require_once('D:\\Software\\pro...')
+#12 {main}
+CRITICAL - 2025-03-08 17:05:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'bpstala'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelas`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\M_Kelas.php(36): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Home.php(20): App\Models\M_Kelas->getKelas()
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Software\\program\\laragon\\www\\sistem_pkl\\public\\index.php')
+INFO - 2025-03-08 17:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-08 17:14:11 --> Undefined array key "leveluser"
+in APPPATH\Controllers\Kuesioner.php on line 20.
+ 1 APPPATH\Controllers\Kuesioner.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "leveluser"', 'D:\\Software\\program\\laragon\\www\\sistem_pkl\\app\\Controllers\\Kuesioner.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kuesioner->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Software\\program\\laragon\\www\\sistem_pkl\\public\\index.php')
+INFO - 2025-03-08 17:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-08 17:41:31 --> Undefined variable $hasFilled
+in APPPATH\Views\v_kuesioner_p.php on line 22.
+ 1 APPPATH\Views\v_kuesioner_p.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hasFilled', 'D:\\Software\\program\\laragon\\www\\sistem_pkl\\app\\Views\\v_kuesioner_p.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Software\\program\\laragon\\www\\sistem_pkl\\app\\Views\\v_kuesioner_p.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_kuesioner_p', [], true)
+ 5 APPPATH\Controllers\Kuesioner.php(23): view('v_kuesioner_p', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kuesioner->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Software\\program\\laragon\\www\\sistem_pkl\\public\\index.php')
+INFO - 2025-03-08 17:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-08 17:42:26 --> Undefined variable $hasFilled
+in APPPATH\Views\v_kuesioner_p.php on line 22.
+ 1 APPPATH\Views\v_kuesioner_p.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hasFilled', 'D:\\Software\\program\\laragon\\www\\sistem_pkl\\app\\Views\\v_kuesioner_p.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Software\\program\\laragon\\www\\sistem_pkl\\app\\Views\\v_kuesioner_p.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_kuesioner_p', [], true)
+ 5 APPPATH\Controllers\Kuesioner.php(23): view('v_kuesioner_p', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kuesioner->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Software\\program\\laragon\\www\\sistem_pkl\\public\\index.php')
+INFO - 2025-03-08 17:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 17:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-08 17:42:57 --> Undefined variable $hasFilled
+in APPPATH\Views\v_kuesioner_p.php on line 22.
+ 1 APPPATH\Views\v_kuesioner_p.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hasFilled', 'D:\\Software\\program\\laragon\\www\\sistem_pkl\\app\\Views\\v_kuesioner_p.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Software\\program\\laragon\\www\\sistem_pkl\\app\\Views\\v_kuesioner_p.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_kuesioner_p', [], true)
+ 5 APPPATH\Controllers\Kuesioner.php(23): view('v_kuesioner_p', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kuesioner->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Software\\program\\laragon\\www\\sistem_pkl\\public\\index.php')
+INFO - 2025-03-08 17:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-08 18:08:23 --> Undefined variable $hasFilled
+in APPPATH\Views\v_kuesioner_p.php on line 22.
+ 1 APPPATH\Views\v_kuesioner_p.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hasFilled', 'D:\\Software\\program\\laragon\\www\\sistem_pkl\\app\\Views\\v_kuesioner_p.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Software\\program\\laragon\\www\\sistem_pkl\\app\\Views\\v_kuesioner_p.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_kuesioner_p', [], true)
+ 5 APPPATH\Controllers\Kuesioner.php(23): view('v_kuesioner_p', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kuesioner->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Software\\program\\laragon\\www\\sistem_pkl\\public\\index.php')
+INFO - 2025-03-08 18:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-08 18:09:38 --> Undefined variable $sudahMengisi
+in APPPATH\Views\v_kuesioner_p.php on line 17.
+ 1 APPPATH\Views\v_kuesioner_p.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sudahMengisi', 'D:\\Software\\program\\laragon\\www\\sistem_pkl\\app\\Views\\v_kuesioner_p.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Software\\program\\laragon\\www\\sistem_pkl\\app\\Views\\v_kuesioner_p.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_kuesioner_p', [], true)
+ 5 APPPATH\Controllers\Kuesioner.php(23): view('v_kuesioner_p', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kuesioner->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Software\\program\\laragon\\www\\sistem_pkl\\public\\index.php')
+INFO - 2025-03-08 18:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-08 18:10:34 --> Call to undefined method App\Models\M_Respon::sudahMengisi
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Kuesioner.php(19): CodeIgniter\Model->__call('sudahMengisi', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kuesioner->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Software\\program\\laragon\\www\\sistem_pkl\\public\\index.php')
+INFO - 2025-03-08 18:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-08 18:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
