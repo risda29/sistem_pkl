@@ -34,7 +34,7 @@
                                         <th style="width: 10%">Aksi</th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <!-- <tbody>
                                     <?php foreach ($kuesioner as $index => $item) : ?>
                                         <tr>
                                             <td><?= esc($index + 1) ?></td>
@@ -50,10 +50,31 @@
                                             <td colspan="3">
                                                 <strong>Statistik Jawaban:</strong>
                                                 <ul>
-                                                    <?php for ($i = 1; $i <= 2; $i++) : ?>
+                                                    
+                                                    <?php // sesuaikan jumlahnya dengan poin di pertanyaan nya
+                                                    for ($i = 1; $i <= 3; $i++) : ?>
                                                         <li>Poin <?= $i ?>: <?= $statistik[$item['id_kuesioner']][$i] ?? 0 ?> orang</li>
                                                     <?php endfor; ?>
                                                 </ul>
+                                            </td>
+                                        </tr>
+                                    <?php endforeach; ?>
+                                </tbody> -->
+                                <tbody>
+                                    <?php foreach ($kuesioner as $index => $item) : ?>
+                                        <tr>
+                                            <td><?= esc($index + 1) ?></td>
+                                            <td><?= esc($item['pertanyaan']) ?></td>
+                                            <td>
+                                                <div class="btn-group" role="group">
+                                                    <a href="#" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modalEdit<?= $item['id_kuesioner']; ?>">Edit</a>
+                                                    <a href="#" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#modalHapus<?= $item['id_kuesioner']; ?>">Hapus</a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="3">
+                                                <canvas id="chart<?= $item['id_kuesioner'] ?>" width="50" height="25"></canvas>
                                             </td>
                                         </tr>
                                     <?php endforeach; ?>
@@ -148,3 +169,51 @@
     <?php echo view('template/footer'); ?>
     </div>
 </body>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        <?php foreach ($kuesioner as $item) : ?>
+            var ctx = document.getElementById("chart<?= $item['id_kuesioner'] ?>").getContext("2d");
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    // sesuaikan jumlahnya dengan poin di pertanyaan nya
+                    labels: ['Poin 1', 'Poin 2', 'Poin 3'],
+                    datasets: [{
+                        label: 'Jumlah Responden',
+                        data: [
+                            <?= $statistik[$item['id_kuesioner']][1] ?? 0 ?>,
+                            <?= $statistik[$item['id_kuesioner']][2] ?? 0 ?>,
+                            <?= $statistik[$item['id_kuesioner']][3] ?? 0 ?>
+                        ],
+                        backgroundColor: ['#4CAF50', '#FFC107', '#F44336'],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Jumlah Responden'
+                            },
+                            ticks: {
+                                stepSize: 1, // Supaya naiknya per 1 angka
+                                callback: function(value, index, values) {
+                                    return Number.isInteger(value) ? value : null; // Hanya tampilkan bilangan bulat
+                                }
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    }
+                }
+            });
+        <?php endforeach; ?>
+    });
+</script>
