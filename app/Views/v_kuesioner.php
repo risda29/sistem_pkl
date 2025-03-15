@@ -166,7 +166,7 @@
         </div>
     </div>
 
-    <?php echo view('template/footer'); ?>
+   
     </div>
 </body>
 
@@ -178,15 +178,16 @@
                 type: 'bar',
                 data: {
                     // sesuaikan jumlahnya dengan poin di pertanyaan nya
-                    labels: ['Poin 1', 'Poin 2', 'Poin 3'],
+                    labels: ['Poin 1', 'Poin 2', 'Poin 3', 'Poin 4'],
                     datasets: [{
                         label: 'Jumlah Responden',
                         data: [
                             <?= $statistik[$item['id_kuesioner']][1] ?? 0 ?>,
                             <?= $statistik[$item['id_kuesioner']][2] ?? 0 ?>,
-                            <?= $statistik[$item['id_kuesioner']][3] ?? 0 ?>
+                            <?= $statistik[$item['id_kuesioner']][3] ?? 0 ?>,
+                            <?= $statistik[$item['id_kuesioner']][4] ?? 0 ?>
                         ],
-                        backgroundColor: ['#4CAF50', '#FFC107', '#F44336'],
+                        backgroundColor: ['#4CAF50', '#FFC107', '#F44336', '#F44336'],
                         borderWidth: 1
                     }]
                 },
@@ -217,3 +218,6 @@
         <?php endforeach; ?>
     });
 </script>
+
+		<?php echo view('template/footer'); ?>
+</body>
